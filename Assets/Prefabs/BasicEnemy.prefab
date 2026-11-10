@@ -204,6 +204,7 @@ MonoBehaviour:
   hpBar: {fileID: 5302828075049760346}
   enterDamage: 10.08
   stayDamage: 1
+  energyObject: {fileID: 2849438402233840849, guid: f4facdc743cca3c4da6d3b363a5b6427, type: 3}
 --- !u!1001 &5195743238337978439
 PrefabInstance:
   m_ObjectHideFlags: 0

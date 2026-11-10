@@ -18,7 +18,13 @@ public class PlayerCollision : MonoBehaviour
         }
         else if (collision.CompareTag("Energy"))
         {
-            gameManager.AddEnergy();
+            gameManager.AddEnergy(1f);
+            Destroy(collision.gameObject);
+            audioManager.PlayEnergySound();
+        }
+        else if (collision.CompareTag("SmallEnergy"))
+        {
+            gameManager.AddEnergy(0.5f);
             Destroy(collision.gameObject);
             audioManager.PlayEnergySound();
         }

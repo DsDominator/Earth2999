@@ -7,9 +7,11 @@ public abstract class Enemy : MonoBehaviour
     protected Player player;
     [SerializeField] protected float maxHp = 50f;
     protected float currentHp;
+    protected bool isDead = false;
     [SerializeField] private Image hpBar;
     [SerializeField] protected float enterDamage = 10f;
     [SerializeField] protected float stayDamage = 1f;
+
 
     protected virtual void Start()
     {
@@ -39,6 +41,8 @@ public abstract class Enemy : MonoBehaviour
     }
     public virtual void TakeDamage(float damage)
     {
+        if (isDead)
+        return;
         currentHp-=damage;
         currentHp=Mathf.Max(currentHp,0);
         UpdateHpBar();
@@ -50,6 +54,9 @@ public abstract class Enemy : MonoBehaviour
 
     protected virtual void Die()
     {
+        if (isDead)
+        return;
+        isDead = true;
         Destroy(gameObject);
     }
 

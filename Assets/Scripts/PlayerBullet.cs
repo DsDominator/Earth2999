@@ -1,19 +1,27 @@
-using Unity.Mathematics;
+
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerBullet : MonoBehaviour
-{   
+{
     [SerializeField] private float moveSpeed = 10f;
     [SerializeField] private float timeDestroy = 2f;
     [SerializeField] private float damage = 10f;
-    [SerializeField] GameObject bloodPrefabs;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private GameObject bloodPrefabs;
+
+    [Header("Penetration")]
+    [SerializeField] private int maxPenetration = 1;
+
+    private int enemiesHit = 0;
+
+    // Tránh một Enemy bị tính trúng nhiều lần
+    private HashSet<Enemy> hitEnemies = new HashSet<Enemy>();
+
     void Start()
     {
-        Destroy(gameObject,timeDestroy);
+        Destroy(gameObject, timeDestroy);
     }
 
-    // Update is called once per frame
     void Update()
     {
         MoveBullet();
@@ -21,20 +29,40 @@ public class PlayerBullet : MonoBehaviour
 
     void MoveBullet()
     {
-        transform.Translate(Vector2.right*moveSpeed*Time.deltaTime);
+        transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (!collision.CompareTag("Enemy")) return;
+
+        Enemy enemy = collision.GetComponentInParent<Enemy>();
+
+        if (enemy == null) return;
+
+        // Bỏ qua Enemy đã bị viên đạn này bắn trúng
+        if (hitEnemies.Contains(enemy)) return;
+
+        hitEnemies.Add(enemy);
+
+        enemy.TakeDamage(damage);
+
+        if (bloodPrefabs != null)
         {
-            Enemy enemy = collision.GetComponent<Enemy>();
-            if(enemy != null)
-            {
-                enemy.TakeDamage(damage);
-                GameObject blood = Instantiate(bloodPrefabs,transform.position,Quaternion.identity);
-                Destroy(blood,1f);
-            }
+            GameObject blood = Instantiate(
+                bloodPrefabs,
+                transform.position,
+                Quaternion.identity
+            );
+
+            Destroy(blood, 1f);
+        }
+
+        enemiesHit++;
+
+        // Hủy đạn khi đạt giới hạn xuyên
+        if (enemiesHit >= maxPenetration)
+        {
             Destroy(gameObject);
         }
     }

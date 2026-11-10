@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnergyEnemy : Enemy
 {
     [SerializeField] private GameObject energyObject;
-  private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
