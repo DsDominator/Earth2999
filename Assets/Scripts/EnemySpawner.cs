@@ -5,6 +5,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private GameObject[] enemies;
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private float timeBetweenSpawns = 2f;
+    [SerializeField] private float minSpawnTime = 1f;
+    [SerializeField] private float reduceSpawnTime = 0.2f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,6 +22,15 @@ public class EnemySpawner : MonoBehaviour
             Transform spawnPoint = spawnPoints[Random.Range(0,spawnPoints.Length)];
             Instantiate(enemy,spawnPoint.position,Quaternion.identity);
         }
+    }
+    public void reduceTimeSpawms()
+    {
+        timeBetweenSpawns = Mathf.Max(
+            minSpawnTime,
+            timeBetweenSpawns - reduceSpawnTime
+        );
+
+        Debug.Log("New Spawn Time: " + timeBetweenSpawns);
     }
 
 }

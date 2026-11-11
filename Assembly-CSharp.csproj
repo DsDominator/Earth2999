@@ -69,11 +69,13 @@
     <Compile Include="Assets\Scripts\GunManager.cs" />
     <Compile Include="Assets\Scripts\MiniEnemy.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\UpgradeMenu.cs" />
     <Compile Include="Assets\Scripts\GameUi.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Pistol.cs" />
     <Compile Include="Assets\Scripts\ExplosionEnemy.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\CursorManager.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\EnemyBullet.cs" />

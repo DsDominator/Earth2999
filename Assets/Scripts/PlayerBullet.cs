@@ -8,6 +8,7 @@ public class PlayerBullet : MonoBehaviour
     [SerializeField] private float timeDestroy = 2f;
     [SerializeField] private float damage = 10f;
     [SerializeField] private GameObject bloodPrefabs;
+    private float finalDamage;
 
     [Header("Penetration")]
     [SerializeField] private int maxPenetration = 1;
@@ -19,6 +20,12 @@ public class PlayerBullet : MonoBehaviour
 
     void Start()
     {
+        PlayerStats stats = FindAnyObjectByType<PlayerStats>();
+        float multiplier = stats != null
+            ? stats.damageMultiplier
+            : 1f;
+
+        finalDamage = damage * multiplier;
         Destroy(gameObject, timeDestroy);
     }
 
@@ -45,7 +52,7 @@ public class PlayerBullet : MonoBehaviour
 
         hitEnemies.Add(enemy);
 
-        enemy.TakeDamage(damage);
+        enemy.TakeDamage(finalDamage);
 
         if (bloodPrefabs != null)
         {

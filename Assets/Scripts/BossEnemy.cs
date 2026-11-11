@@ -85,10 +85,22 @@ public class BossEnemy : Enemy
     
     private void Teleport()
     {
-        if(player != null)
+        if (player != null)
         {
-            transform.position = player.transform.position;
+            float minDistance = 2f;
+            float maxDistance = 4f;
 
+            // Chọn hướng ngẫu nhiên
+            Vector2 randomDirection = Random.insideUnitCircle.normalized;
+
+            // Chọn khoảng cách ngẫu nhiên
+            float distance = Random.Range(minDistance, maxDistance);
+
+            // Tính vị trí dịch chuyển
+            Vector2 teleportPosition =
+                (Vector2)player.transform.position + randomDirection * distance;
+
+            transform.position = teleportPosition;
         }
     }
 

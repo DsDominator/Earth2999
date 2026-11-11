@@ -1,11 +1,12 @@
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
     private float currentEnergy;
-    [SerializeField] private int energyThreshold = 3;
+    [SerializeField] private float energyThreshold = 3;
     [SerializeField] private GameObject boss;
     [SerializeField] private GameObject enemySpawner;
     [SerializeField] private Image energeyBar;
@@ -16,6 +17,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject winMenu;
     [SerializeField] private AudioManager audioManager;
     [SerializeField] private CinemachineCamera cam;
+    [SerializeField] private UpgradeMenu upgradeMenu;
+    private bool isChoosingUpgrade = false;
+    [Header("Boss Settings")]
+    [SerializeField] private float bossSpawnTime = 120f; // 120 giây
+    private Coroutine bossCoroutine;
 
     private bool bossCalled = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,25 +33,32 @@ public class GameManager : MonoBehaviour
         MainMenu();
         audioManager.StopGameAudio();
         cam.Lens.OrthographicSize = 5f;
+        upgradeMenu.OnUpgradeSelected += OnPlayerUpgraded;
     }
 
 
     public void AddEnergy(float energyValue)
     {
-        if (bossCalled)
-        {
-            return;
-        }
-        currentEnergy +=energyValue;
+        if (bossCalled || isChoosingUpgrade) return;
+
+        currentEnergy += energyValue;
+
         UpdateEnergyBar();
-        if(currentEnergy == energyThreshold)
+
+        if (currentEnergy >= energyThreshold)
         {
-            CallBoss();
+            OpenUpgradeMenu();
         }
     }
 
     private void CallBoss()
     {
+        if (bossCoroutine != null)
+        {
+            StopCoroutine(bossCoroutine);
+            bossCoroutine = null;
+        }
+        DestroyAllEnemies();
         bossCalled = true;
         boss.SetActive(true);
         enemySpawner.SetActive(false);
@@ -107,6 +120,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         audioManager.PlayDefaultAudio();
         winMenu.SetActive(false);
+        if (!bossCalled && bossCoroutine == null)
+        {
+            bossCoroutine = StartCoroutine(BossSpawnTimer());
+        }
     }
 
     public void ResumeGame()
@@ -116,5 +133,48 @@ public class GameManager : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         winMenu.SetActive(false);
+    }
+    private IEnumerator BossSpawnTimer()
+    {
+        yield return new WaitForSeconds(bossSpawnTime);
+        bossCoroutine = null;
+        CallBoss();  
+    }
+    private void OpenUpgradeMenu()
+    {
+        EnemySpawner spawner = enemySpawner.GetComponent<EnemySpawner>();
+         if (spawner != null)
+        {
+            spawner.reduceTimeSpawms();
+        }
+        isChoosingUpgrade = true;
+        energyThreshold = energyThreshold*1.2f;
+
+        currentEnergy = 0;
+        UpdateEnergyBar();
+
+        upgradeMenu.ShowUpgradeMenu();
+    }
+    private void OnPlayerUpgraded()
+    {
+        isChoosingUpgrade = false;
+    }
+    private void OnDestroy()
+    {
+        if (upgradeMenu != null)
+        {
+            upgradeMenu.OnUpgradeSelected -= OnPlayerUpgraded;
+        }
+    }
+    private void DestroyAllEnemies()
+    {
+        Enemy[] enemies = FindObjectsByType<Enemy>(
+            FindObjectsSortMode.None
+        );
+
+        foreach (Enemy enemy in enemies)
+        {
+            Destroy(enemy.gameObject);
+        }
     }
 }

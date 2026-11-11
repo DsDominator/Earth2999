@@ -1,107 +1,160 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player : MonoBehaviour     
+public class Player : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-    [SerializeField] protected float maxHp = 100f;
-    protected float currentHp;
+
+    [Header("Player Stats")]
+    [SerializeField] private PlayerStats playerStats;
+
+    [Header("UI")]
     [SerializeField] private Image hpBar;
-    [SerializeField] private GameManager gameManager;
-    [SerializeField] private float dashBoost = 5f;
-    [SerializeField] private float dashTime = 0.3f;
-    [SerializeField] private float dashCooldown = 2f;
-    [Header("Dash UI")]
     [SerializeField] private Image dashCooldownImage;
 
-    private float currentMoveSpeed;
+    [Header("References")]
+    [SerializeField] private GameManager gameManager;
+
+    public GameObject dashEffectObject;
+
     private float dashTimer;
     private float dashCooldownTimer;
     private bool isDashing = false;
-    public GameObject dashEffectObject;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
+    private bool isDead = false;
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-    }
-    void Start()
-    {
-        currentHp = maxHp;
-        currentMoveSpeed = moveSpeed;
-        UpdateHpBar();
+
+        if (playerStats == null)
+        {
+            playerStats = GetComponent<PlayerStats>();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        movePlayer();
+        if (playerStats == null)
+        {
+            Debug.LogError("PlayerStats chưa được gắn vào Player!");
+            return;
+        }
+
+        playerStats.currentHealth = playerStats.maxHealth;
+
+        UpdateHpBar();
+        UpdateDashUI();
+    }
+
+    private void Update()
+    {
+        if (isDead) return;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             gameManager.PauseGameMenu();
         }
+
         HandleDash();
         UpdateDashUI();
     }
 
-    void movePlayer()
+    private void FixedUpdate()
+    {
+        if (isDead || playerStats == null) return;
+
+        MovePlayer();
+    }
+
+    private void MovePlayer()
     {
         Vector2 playerInput = new Vector2(
             Input.GetAxisRaw("Horizontal"),
             Input.GetAxisRaw("Vertical")
         );
 
+        float currentMoveSpeed = playerStats.moveSpeed;
+
+        if (isDashing)
+        {
+            currentMoveSpeed += playerStats.dashBoost;
+        }
+
         rb.linearVelocity = playerInput.normalized * currentMoveSpeed;
 
         if (playerInput.x < 0)
-        {
             spriteRenderer.flipX = true;
-        }
         else if (playerInput.x > 0)
-        {
             spriteRenderer.flipX = false;
-        }
 
         animator.SetBool("isRun", playerInput != Vector2.zero);
     }
+
+    // =========================
+    // HEALTH SYSTEM
+    // =========================
+
     public void TakeDamage(float damage)
     {
-        currentHp-=damage;
-        currentHp=Mathf.Max(currentHp,0);
+        if (isDead || playerStats == null) return;
+
+        playerStats.currentHealth -= damage;
+
+        playerStats.currentHealth = Mathf.Max(
+            playerStats.currentHealth, 0
+        );
+
         UpdateHpBar();
-        if (currentHp <= 0)
+
+        if (playerStats.currentHealth <= 0)
         {
             Die();
         }
     }
 
-    private void Die()
-    {
-        Destroy(gameObject);
-        gameManager.GameOverMenu();
-    }
-
-    protected void UpdateHpBar()
-    {
-        if (hpBar != null)
-        {
-            hpBar.fillAmount = currentHp/maxHp;
-        }
-    }
-
     public void Heal(float healValue)
     {
-        if(currentHp < maxHp)
+        if (isDead || playerStats == null) return;
+
+        playerStats.currentHealth = Mathf.Min(
+            playerStats.currentHealth + healValue,
+            playerStats.maxHealth
+        );
+
+        UpdateHpBar();
+    }
+
+    private void UpdateHpBar()
+    {
+        if (hpBar != null && playerStats != null)
         {
-            currentHp += healValue;
-            currentHp = Mathf.Min(currentHp,maxHp);
-            UpdateHpBar();
+            hpBar.fillAmount =
+                playerStats.currentHealth / playerStats.maxHealth;
         }
     }
+
+    private void Die()
+    {
+        if (isDead) return;
+
+        isDead = true;
+
+        rb.linearVelocity = Vector2.zero;
+
+        gameManager.GameOverMenu();
+
+        Destroy(gameObject);
+    }
+
+    // =========================
+    // DASH SYSTEM
+    // =========================
+
     private void HandleDash()
     {
         if (dashCooldownTimer > 0)
@@ -114,11 +167,9 @@ public class Player : MonoBehaviour
             dashCooldownTimer <= 0)
         {
             isDashing = true;
-            dashTimer = dashTime;
 
-            dashCooldownTimer = dashCooldown;
-
-            currentMoveSpeed = moveSpeed + dashBoost;
+            dashTimer = playerStats.dashTime;
+            dashCooldownTimer = playerStats.dashCooldown;
         }
 
         if (isDashing)
@@ -128,16 +179,22 @@ public class Player : MonoBehaviour
             if (dashTimer <= 0)
             {
                 isDashing = false;
-                currentMoveSpeed = moveSpeed;
             }
         }
-        dashEffectObject.SetActive(isDashing);
+
+        if (dashEffectObject != null)
+        {
+            dashEffectObject.SetActive(isDashing);
+        }
     }
+
     private void UpdateDashUI()
     {
         if (dashCooldownImage == null) return;
 
         dashCooldownImage.fillAmount =
-            1f - Mathf.Clamp01(dashCooldownTimer / dashCooldown);
+            1f - Mathf.Clamp01(
+                dashCooldownTimer / playerStats.dashCooldown
+            );
     }
 }

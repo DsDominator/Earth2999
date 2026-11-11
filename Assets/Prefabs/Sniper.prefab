@@ -104,7 +104,7 @@ MonoBehaviour:
   firePos: {fileID: 1213969117588219423}
   bulletPrefabs: {fileID: 4427629483334851196, guid: 33bfec5e7e5944a43b3a7027023bfa8c, type: 3}
   shotDelay: 0.5
-  maxAmmo: 3
+  maxAmmo: 5
   automatic: 0
   ammoText: {fileID: 0}
   audioManager: {fileID: 0}
