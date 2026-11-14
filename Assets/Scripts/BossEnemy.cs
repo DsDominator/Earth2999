@@ -10,6 +10,8 @@ public class BossEnemy : Enemy
     [SerializeField] private GameObject miniEnemy;
     [SerializeField] private float skillCooldown = 2f;
     [SerializeField] private GameObject usbPrefabs;
+    [SerializeField] private GameManager gameManager;
+    private bool isDead = false;
     private float nextSkillTime = 0f;
     protected override void Update()
     {
@@ -21,7 +23,11 @@ public class BossEnemy : Enemy
     }
     protected override void Die()
     {   
-        Instantiate(usbPrefabs,transform.position,Quaternion.identity);
+        if (isDead) return;
+
+        isDead = true;
+        gameManager.BossDefeated();
+        // Instantiate(usbPrefabs,transform.position,Quaternion.identity);
         base.Die();
     }
     private void OnTriggerEnter2D(Collider2D collision)
