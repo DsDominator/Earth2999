@@ -17,4 +17,22 @@ public class Shotgun : Weapon
             SpawnBullet(angle);
         }
     }
+    public override void ApplyUpgrade(UpgradeType upgrade)
+    {
+        switch (upgrade)
+        {
+            case UpgradeType.ShotgunPelletCount:
+                bulletCount += 1;
+                break;
+
+            case UpgradeType.ShotgunSpread:
+                spreadAngle *= 0.8f;
+                break;
+
+            case UpgradeType.ShotgunAmmoCapacity:
+                maxAmmo = Mathf.CeilToInt(maxAmmo * 1.2f);
+                currentAmmo = maxAmmo;
+                break;
+        }
+    }
 }

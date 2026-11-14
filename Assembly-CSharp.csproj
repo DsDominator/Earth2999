@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BasicEnemy.cs" />
     <Compile Include="Assets\Scripts\GunManager.cs" />
+    <Compile Include="Assets\Scripts\WeaponUpgradeMenu.cs" />
     <Compile Include="Assets\Scripts\MiniEnemy.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\UpgradeMenu.cs" />

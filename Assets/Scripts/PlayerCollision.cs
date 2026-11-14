@@ -4,6 +4,7 @@ public class PlayerCollision : MonoBehaviour
 {
     [SerializeField] GameManager gameManager;
     [SerializeField] AudioManager audioManager;
+    private bool isOpeningWeaponUpgrade = false;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("EnemyBullet"))
@@ -13,7 +14,20 @@ public class PlayerCollision : MonoBehaviour
         }
         else if (collision.CompareTag("Usb"))
         {
-            gameManager.WinGameMenu();
+            if (isOpeningWeaponUpgrade) return;
+
+            GunManager gunManager = GetComponentInChildren<GunManager>();
+
+            if (gunManager == null)
+            {
+                Debug.LogError("GunManager not found on Player!");
+                return;
+            }
+
+            isOpeningWeaponUpgrade = true;
+
+            gunManager.ShowUpgradeMenu();
+
             Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("Energy"))

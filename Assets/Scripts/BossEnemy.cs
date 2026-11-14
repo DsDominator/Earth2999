@@ -27,7 +27,7 @@ public class BossEnemy : Enemy
 
         isDead = true;
         gameManager.BossDefeated();
-        // Instantiate(usbPrefabs,transform.position,Quaternion.identity);
+        Instantiate(usbPrefabs,transform.position,Quaternion.identity);
         base.Die();
     }
     private void OnTriggerEnter2D(Collider2D collision)

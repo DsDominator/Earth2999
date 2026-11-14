@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -72,5 +71,9 @@ public class PlayerBullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    public void UpgradePenetration(int amount)
+    {
+        maxPenetration += amount;
     }
 }

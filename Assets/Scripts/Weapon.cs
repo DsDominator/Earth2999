@@ -68,7 +68,7 @@ public abstract class Weapon : MonoBehaviour
     protected abstract void Fire();
 
     // Tạo viên đạn
-    protected void SpawnBullet(float angle = 0f)
+    protected virtual void SpawnBullet(float angle = 0f)
     {
         if (firePos == null || bulletPrefabs == null)
             return;
@@ -171,5 +171,9 @@ public abstract class Weapon : MonoBehaviour
         {
             audioManager.PlayReloadSound();
         }
+    }
+    public virtual void ApplyUpgrade(UpgradeType upgrade)
+    {
+        Debug.LogWarning("This weapon does not support this upgrade: " + upgrade);
     }
 }
