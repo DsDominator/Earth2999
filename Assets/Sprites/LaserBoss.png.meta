@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 5da602a85bcbc8243a9ce8b206dc0b6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7863807558725656476
+    second: LaserBoss_0
+  - first:
+      213: -6948563360280243359
+    second: LaserBoss_1
+  - first:
+      213: -3094182923457623348
+    second: LaserBoss_2
+  - first:
+      213: 5226542120244134536
+    second: LaserBoss_3
+  - first:
+      213: -2186047426925499985
+    second: LaserBoss_4
+  - first:
+      213: -6324358383762513257
+    second: LaserBoss_5
+  - first:
+      213: 8255559842151110611
+    second: LaserBoss_6
+  - first:
+      213: -8586126183187834034
+    second: LaserBoss_7
+  - first:
+      213: -8759935405665301271
+    second: LaserBoss_8
+  - first:
+      213: -6435970196029261875
+    second: LaserBoss_9
+  - first:
+      213: 806003627182869222
+    second: LaserBoss_10
+  - first:
+      213: 8768295143560862644
+    second: LaserBoss_11
+  - first:
+      213: 8367551114550617297
+    second: LaserBoss_12
+  - first:
+      213: -9036451809091293948
+    second: LaserBoss_13
+  - first:
+      213: -8412200581673016079
+    second: LaserBoss_14
+  - first:
+      213: 5861590318866955077
+    second: LaserBoss_15
+  - first:
+      213: 5287345361110249624
+    second: LaserBoss_16
+  - first:
+      213: 196010319377443998
+    second: LaserBoss_17
+  - first:
+      213: -6292349312519701058
+    second: LaserBoss_18
+  - first:
+      213: -8620716277041172899
+    second: LaserBoss_19
+  - first:
+      213: 5923632597157801640
+    second: LaserBoss_20
+  - first:
+      213: -4077995672225363470
+    second: LaserBoss_21
+  - first:
+      213: 1466293489814375077
+    second: LaserBoss_22
+  - first:
+      213: 5256893919758298841
+    second: LaserBoss_23
+  - first:
+      213: -6446546579215917181
+    second: LaserBoss_24
+  - first:
+      213: 2410020580213919071
+    second: LaserBoss_25
+  - first:
+      213: 3301366211520064322
+    second: LaserBoss_26
+  - first:
+      213: -9179864660824152056
+    second: LaserBoss_27
+  - first:
+      213: -7019277232158004671
+    second: LaserBoss_28
+  - first:
+      213: -4770618778049964114
+    second: LaserBoss_29
+  - first:
+      213: -40234086558806344
+    second: LaserBoss_30
+  - first:
+      213: 659929177957289816
+    second: LaserBoss_31
+  - first:
+      213: 1623397299868914824
+    second: LaserBoss_32
+  - first:
+      213: -8694450405918462423
+    second: LaserBoss_33
+  - first:
+      213: 3670926036297692947
+    second: LaserBoss_34
+  - first:
+      213: 1239157243636691834
+    second: LaserBoss_35
+  - first:
+      213: -4823938010622559251
+    second: LaserBoss_36
+  - first:
+      213: 7575730172814079985
+    second: LaserBoss_37
+  - first:
+      213: 8652428843929746643
+    second: LaserBoss_38
+  - first:
+      213: 4753800832798601006
+    second: LaserBoss_39
+  - first:
+      213: -5502469884453249883
+    second: LaserBoss_40
+  - first:
+      213: 8187501387441660908
+    second: LaserBoss_41
+  - first:
+      213: 1195460359388739028
+    second: LaserBoss_42
+  - first:
+      213: 3279547074776996443
+    second: LaserBoss_43
+  - first:
+      213: 8172610627607088088
+    second: LaserBoss_44
+  - first:
+      213: -2411364265855743972
+    second: LaserBoss_45
+  - first:
+      213: -9219410007984508855
+    second: LaserBoss_46
+  - first:
+      213: -5309516397613906341
+    second: LaserBoss_47
+  - first:
+      213: -5427197144180215622
+    second: LaserBoss_48
+  - first:
+      213: 4252580507516288925
+    second: LaserBoss_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaserBoss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 362
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460202880b42ed290800000000000000
+      internalID: -7863807558725656476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBoss_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 236
+        width: 362
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163933b507eb19f90800000000000000
+      internalID: -6948563360280243359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBoss_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 236
+        width: 362
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca8a3956014f05d0800000000000000
+      internalID: -3094182923457623348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBoss_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 233
+        width: 362
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882c4c0fd58688840800000000000000
+      internalID: 5226542120244134536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBoss_4
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 233
+        width: 362
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9e2f7827999a1e0800000000000000
+      internalID: -2186047426925499985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBoss_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 234
+        width: 362
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792629fce8d5b38a0800000000000000
+      internalID: -6324358383762513257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66e7896b7b57f25449fd5968506a7c87
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LaserBoss_0: -7863807558725656476
+      LaserBoss_1: -6948563360280243359
+      LaserBoss_2: -3094182923457623348
+      LaserBoss_3: 5226542120244134536
+      LaserBoss_4: -2186047426925499985
+      LaserBoss_5: -6324358383762513257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -31,6 +31,7 @@ public class GunManager : MonoBehaviour
 
     private Weapon[] weapons = new Weapon[3];
     private int currentSlot = -1;
+    private PlayerCollision playerCollision;
 
     public Weapon CurrentWeapon
     {
@@ -41,106 +42,107 @@ public class GunManager : MonoBehaviour
         }
     }
     private void Reset()
-{
-    allUpgrades = new WeaponUpgrade[]
     {
-        // =========================
-        // PISTOL
-        // =========================
-
-        new WeaponUpgrade
+        allUpgrades = new WeaponUpgrade[]
         {
-            weapon = WeaponType.Pistol,
-            upgrade = UpgradeType.PistolFireRate,
-            upgradeName = "Rapid Fire",
-            description = "Increase Pistol firing speed by 15%.",
-            icon = null
-        },
+            // =========================
+            // PISTOL
+            // =========================
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Pistol,
-            upgrade = UpgradeType.PistolAmmoCapacity,
-            upgradeName = "Extended Magazine",
-            description = "Increase Pistol maximum ammo capacity by 20%.",
-            icon = null
-        },
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Pistol,
+                upgrade = UpgradeType.PistolFireRate,
+                upgradeName = "Rapid Fire",
+                description = "Increase Pistol firing speed by 15%.",
+                icon = null
+            },
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Pistol,
-            upgrade = UpgradeType.PistolReloadSpeed,
-            upgradeName = "Quick Reload",
-            description = "Reduce Pistol reload time by 20%.",
-            icon = null
-        },
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Pistol,
+                upgrade = UpgradeType.PistolAmmoCapacity,
+                upgradeName = "Extended Magazine",
+                description = "Increase Pistol maximum ammo capacity by 20%.",
+                icon = null
+            },
 
-        // =========================
-        // SHOTGUN
-        // =========================
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Pistol,
+                upgrade = UpgradeType.PistolReloadSpeed,
+                upgradeName = "Quick Reload",
+                description = "Reduce Pistol reload time by 20%.",
+                icon = null
+            },
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Shotgun,
-            upgrade = UpgradeType.ShotgunPelletCount,
-            upgradeName = "Extra Pellets",
-            description = "Fire one additional pellet with each shot.",
-            icon = null
-        },
+            // =========================
+            // SHOTGUN
+            // =========================
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Shotgun,
-            upgrade = UpgradeType.ShotgunSpread,
-            upgradeName = "Tight Spread",
-            description = "Reduce Shotgun bullet spread angle by 20%.",
-            icon = null
-        },
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Shotgun,
+                upgrade = UpgradeType.ShotgunPelletCount,
+                upgradeName = "Extra Pellets",
+                description = "Fire one additional pellet with each shot.",
+                icon = null
+            },
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Shotgun,
-            upgrade = UpgradeType.ShotgunAmmoCapacity,
-            upgradeName = "Extended Magazine",
-            description = "Increase Shotgun maximum ammo capacity by 20%.",
-            icon = null
-        },
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Shotgun,
+                upgrade = UpgradeType.ShotgunSpread,
+                upgradeName = "Tight Spread",
+                description = "Reduce Shotgun bullet spread angle by 20%.",
+                icon = null
+            },
 
-        // =========================
-        // SNIPER
-        // =========================
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Shotgun,
+                upgrade = UpgradeType.ShotgunAmmoCapacity,
+                upgradeName = "Extended Magazine",
+                description = "Increase Shotgun maximum ammo capacity by 20%.",
+                icon = null
+            },
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Sniper,
-            upgrade = UpgradeType.SniperPenetration,
-            upgradeName = "Armor Piercing",
-            description = "Allow Sniper bullets to penetrate one additional enemy.",
-            icon = null
-        },
+            // =========================
+            // SNIPER
+            // =========================
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Sniper,
-            upgrade = UpgradeType.SniperReloadSpeed,
-            upgradeName = "Quick Reload",
-            description = "Reduce Sniper reload time by 20%.",
-            icon = null
-        },
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Sniper,
+                upgrade = UpgradeType.SniperPenetration,
+                upgradeName = "Armor Piercing",
+                description = "Allow Sniper bullets to penetrate one additional enemy.",
+                icon = null
+            },
 
-        new WeaponUpgrade
-        {
-            weapon = WeaponType.Sniper,
-            upgrade = UpgradeType.SniperAmmoCapacity,
-            upgradeName = "Extended Magazine",
-            description = "Increase Sniper maximum ammo capacity by 20%.",
-            icon = null
-        }
-    };
-}
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Sniper,
+                upgrade = UpgradeType.SniperReloadSpeed,
+                upgradeName = "Quick Reload",
+                description = "Reduce Sniper reload time by 20%.",
+                icon = null
+            },
+
+            new WeaponUpgrade
+            {
+                weapon = WeaponType.Sniper,
+                upgrade = UpgradeType.SniperAmmoCapacity,
+                upgradeName = "Extended Magazine",
+                description = "Increase Sniper maximum ammo capacity by 20%.",
+                icon = null
+            }
+        };
+    }
 
     private void Start()
     {
+        playerCollision = GetComponentInParent<PlayerCollision>();
         EquipWeapon(0, firstWeaponPrefab);
         EquipWeapon(1, secondWeaponPrefab);
         EquipWeapon(2, thirdWeaponPrefab);
@@ -292,5 +294,7 @@ public class GunManager : MonoBehaviour
         upgradePanel.SetActive(false);
 
         Time.timeScale = 1f;
+        if (playerCollision != null)
+        playerCollision.OnWeaponUpgradeClosed();
     }
 }

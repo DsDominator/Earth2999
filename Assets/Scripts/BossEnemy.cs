@@ -8,11 +8,11 @@ public class BossEnemy : Enemy
     [SerializeField] private float speedCircleBullet = 10f;
     [SerializeField] private float hpValue = 100f;
     [SerializeField] private GameObject miniEnemy;
-    [SerializeField] private float skillCooldown = 2f;
+    [SerializeField] protected  float skillCooldown = 2f;
     [SerializeField] private GameObject usbPrefabs;
     [SerializeField] private GameManager gameManager;
-    private bool isDead = false;
-    private float nextSkillTime = 0f;
+    protected bool isDead = false;
+    protected float nextSkillTime = 0f;
     protected override void Update()
     {
         base.Update();
@@ -133,7 +133,7 @@ public class BossEnemy : Enemy
         }
     }
 
-    private void UseSkill()
+    protected virtual void UseSkill()
     {
         nextSkillTime = Time.time + skillCooldown;
         RandomSkill();

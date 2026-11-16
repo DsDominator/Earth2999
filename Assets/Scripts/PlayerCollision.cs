@@ -4,7 +4,17 @@ public class PlayerCollision : MonoBehaviour
 {
     [SerializeField] GameManager gameManager;
     [SerializeField] AudioManager audioManager;
+    private GunManager gunManager;
     private bool isOpeningWeaponUpgrade = false;
+    private void Start()
+    {
+        gunManager = GetComponentInChildren<GunManager>();
+    }
+
+    public void OnWeaponUpgradeClosed()
+    {
+        isOpeningWeaponUpgrade = false;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("EnemyBullet"))
@@ -15,8 +25,6 @@ public class PlayerCollision : MonoBehaviour
         else if (collision.CompareTag("Usb"))
         {
             if (isOpeningWeaponUpgrade) return;
-
-            GunManager gunManager = GetComponentInChildren<GunManager>();
 
             if (gunManager == null)
             {
