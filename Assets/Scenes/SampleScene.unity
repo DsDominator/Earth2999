@@ -42085,7 +42085,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -647.99976, y: -56.71997}
+  m_AnchoredPosition: {x: -647.9999, y: -56.71997}
   m_SizeDelta: {x: 0, y: 99.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372549024
@@ -80767,7 +80767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -647.99976, y: -56.71997}
+  m_AnchoredPosition: {x: -647.9999, y: -56.71997}
   m_SizeDelta: {x: 0, y: 99.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1152341430
@@ -86916,8 +86916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067875da339a1cf4d8017eebdc92154c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyMovespeed: 2.8
-  maxHp: 1000
+  enemyMovespeed: 3.6
+  maxHp: 1200
   hpBar: {fileID: 1551015993}
   enterDamage: 10
   stayDamage: 1
@@ -86927,7 +86927,7 @@ MonoBehaviour:
   speedCircleBullet: 10
   hpValue: 100
   miniEnemy: {fileID: 1080669258203728262, guid: 8e4a786cea961674c9821831fc26f4e0, type: 3}
-  skillCooldown: 4
+  skillCooldown: 3
   usbPrefabs: {fileID: 4577696817114358760, guid: c04b4f7355130f242b778f1bd6cedf94, type: 3}
   gameManager: {fileID: 1326204859}
   laserPrefab: {fileID: 3534376603944419436, guid: 82a2ff2bb27d47049b413caa7ccaaad1, type: 3}
@@ -86936,8 +86936,8 @@ MonoBehaviour:
   laserDamage: 40
   laserScaleX: 1
   minePrefab: {fileID: 8057431030156889887, guid: e224c1f00a3e9b347a6738bcb67e11d5, type: 3}
-  mineCount: 3
-  mineRadius: 3
+  mineCount: 8
+  mineRadius: 10
   slamRadius: 4
   slamDamage: 30
   slamWarningTime: 1.2
@@ -86946,7 +86946,7 @@ MonoBehaviour:
   slamEffectDuration: 1
   turretPrefab: {fileID: 7851015069992995546, guid: ae9bfd07bdcb1a643bc2b560ce7418e8, type: 3}
   turretCount: 2
-  rageHealthPercent: 0.3
+  rageHealthPercent: 0.5
   rageCooldownMultiplier: 0.5
 --- !u!95 &9164296544027794877
 Animator:

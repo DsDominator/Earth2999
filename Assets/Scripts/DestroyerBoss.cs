@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class DestroyerBoss : BossEnemy
 {
@@ -16,12 +17,13 @@ public class DestroyerBoss : BossEnemy
     [Header("Mine Field")]
     [SerializeField] private GameObject minePrefab;
     [SerializeField] private int mineCount = 6;
-    [SerializeField] private float mineRadius = 3f;
+    [SerializeField] private float mineRadius = 30f;
 
     [Header("Ground Slam")]
     [SerializeField] private float slamRadius = 4f;
     [SerializeField] private float slamDamage = 30f;
     [SerializeField] private float slamWarningTime = 1.5f;
+    private GameObject activeGroundSlamWarning;
 
     [SerializeField] private GameObject groundSlamWarningPrefab;
     [SerializeField] private GameObject groundSlamImpactPrefab;
@@ -32,7 +34,7 @@ public class DestroyerBoss : BossEnemy
     [SerializeField] private int turretCount = 2;
 
     [Header("Rage Mode")]
-    [SerializeField] private float rageHealthPercent = 0.3f;
+    [SerializeField] private float rageHealthPercent = 0.5f;
     [SerializeField] private float rageCooldownMultiplier = 0.5f;
 
     private bool isUsingSkill;
@@ -265,49 +267,35 @@ public class DestroyerBoss : BossEnemy
 
         Debug.Log("Destroyer: Ground Slam Charging!");
 
-        // Lưu vị trí Boss tại thời điểm bắt đầu kỹ năng
         Vector3 slamPosition = transform.position;
-
-        // Kích thước vùng tấn công
         float slamSize = slamRadius * 2f;
 
-        // =========================
         // GIAI ĐOẠN 1: CẢNH BÁO
-        // =========================
-
-        GameObject warning = null;
 
         if (groundSlamWarningPrefab != null)
         {
-            warning = Instantiate(
+            activeGroundSlamWarning = Instantiate(
                 groundSlamWarningPrefab,
                 slamPosition,
                 Quaternion.identity
             );
 
-            warning.transform.localScale =
+            activeGroundSlamWarning.transform.localScale =
                 Vector3.one * slamSize;
         }
 
-        // Chờ Player né tránh
         yield return new WaitForSeconds(slamWarningTime);
 
         if (isDead)
         {
-            if (warning != null)
-                Destroy(warning);
-
+            ClearGroundSlamWarning();
             isUsingSkill = false;
             yield break;
         }
 
-        // Xóa hiệu ứng cảnh báo
-        if (warning != null)
-            Destroy(warning);
+        ClearGroundSlamWarning();
 
-        // =========================
         // GIAI ĐOẠN 2: VA CHẠM
-        // =========================
 
         Debug.Log("Destroyer: Ground Slam Impact!");
 
@@ -319,15 +307,12 @@ public class DestroyerBoss : BossEnemy
                 Quaternion.identity
             );
 
-            impact.transform.localScale =
-                Vector3.one * slamSize;
+            impact.transform.localScale = Vector3.one * slamSize;
 
             Destroy(impact, slamEffectDuration);
         }
 
-        // =========================
         // GIAI ĐOẠN 3: GÂY SÁT THƯƠNG
-        // =========================
 
         if (player != null)
         {
@@ -354,7 +339,6 @@ public class DestroyerBoss : BossEnemy
             }
         }
 
-        // Chờ hiệu ứng kết thúc
         yield return new WaitForSeconds(slamEffectDuration);
 
         isUsingSkill = false;
@@ -391,5 +375,42 @@ public class DestroyerBoss : BossEnemy
         }
 
         isUsingSkill = false;
+    }
+    private void ClearGroundSlamWarning()
+    {
+        if (activeGroundSlamWarning != null)
+        {
+            Destroy(activeGroundSlamWarning);
+            activeGroundSlamWarning = null;
+        }
+    }
+    private void OnDestroy()
+    {
+        ClearGroundSlamWarning();
+    }
+
+    protected override void Die()
+    {
+        // Kiểm tra tránh gọi Die nhiều lần
+        if (isDead) return;
+
+        // Xóa tất cả Turret đang tồn tại
+        Turret[] turrets = FindObjectsByType<Turret>(
+            FindObjectsSortMode.None
+        );
+
+        foreach (Turret turret in turrets)
+        {
+            if (turret != null)
+            {
+                turret.TakeDamage(999999f);
+            }
+        }
+
+        // Xóa Warning Ground Slam
+        ClearGroundSlamWarning();
+
+        // Gọi Die của BossEnemy
+        base.Die();
     }
 }

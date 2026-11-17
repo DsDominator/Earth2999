@@ -6,7 +6,6 @@ public class Turret : MonoBehaviour
 {
     [Header("Health Bar")]
     [SerializeField] private RectTransform hpBarRoot;
-    [SerializeField] private Vector3 hpBarOffset = new Vector3(0f, 0.8f, 0f);
     [Header("Health")]
     [SerializeField] private float maxHealth = 50f;
     private float currentHealth;
@@ -17,7 +16,7 @@ public class Turret : MonoBehaviour
 
     [Header("Target")]
     [SerializeField] private Transform player;
-    [SerializeField] private float detectionRange = 10f;
+    [SerializeField] private float detectionRange = 25f;
 
     [Header("Shooting")]
     [SerializeField] private GameObject bulletPrefab;
@@ -26,7 +25,7 @@ public class Turret : MonoBehaviour
     [SerializeField] private float bulletDamage = 10f;
 
     [Header("Lifetime")]
-    [SerializeField] private float lifetime = 15f;
+    [SerializeField] private float lifetime = 30f;
     [Header("Death Effect")]
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private float explosionDuration = 0.6f;
