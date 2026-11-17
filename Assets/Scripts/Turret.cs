@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class Turret : MonoBehaviour
 {
+    [Header("Health Bar")]
+    [SerializeField] private RectTransform hpBarRoot;
+    [SerializeField] private Vector3 hpBarOffset = new Vector3(0f, 0.8f, 0f);
     [Header("Health")]
     [SerializeField] private float maxHealth = 50f;
     private float currentHealth;
@@ -49,7 +52,6 @@ public class Turret : MonoBehaviour
 
     private void Update()
     {
-        UpdateHpBarRotation();
         if (isDestroyed || player == null)
             return;
 
@@ -157,11 +159,11 @@ public class Turret : MonoBehaviour
         // Xóa Turret
         Destroy(gameObject);
     }
-    private void UpdateHpBarRotation()
+    private void LateUpdate()
     {
-        if (hpBar != null)
-        {
-            hpBar.rectTransform.rotation = Quaternion.identity;
-        }
+        if (hpBarRoot == null) return;
+
+        // Giữ thanh máu luôn hướng lên trên
+        hpBarRoot.rotation = Quaternion.Euler(0f, 0f, 0f);
     }
 }

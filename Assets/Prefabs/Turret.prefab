@@ -182,6 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c97a01aa9d40a499be72b59feff5f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hpBarRoot: {fileID: 8429579448764647440, guid: a5e8a80a932fe8948bb6f3615d59524f, type: 3}
   maxHealth: 50
   hpBar: {fileID: 5537896330521538550}
   player: {fileID: 0}

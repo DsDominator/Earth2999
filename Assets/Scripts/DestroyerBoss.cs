@@ -62,6 +62,7 @@ public class DestroyerBoss : BossEnemy
             isRageMode = true;
 
             skillCooldown *= rageCooldownMultiplier;
+            enemyMovespeed *= 1.25f;
 
             Debug.Log("DESTROYER ENTERED RAGE MODE!");
         }
