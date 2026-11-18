@@ -71,12 +71,14 @@
     <Compile Include="Assets\Scripts\MiniEnemy.cs" />
     <Compile Include="Assets\Scripts\BossSkillDamage.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\VenomBullet.cs" />
     <Compile Include="Assets\Scripts\UpgradeMenu.cs" />
     <Compile Include="Assets\Scripts\GameUi.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Pistol.cs" />
     <Compile Include="Assets\Scripts\ExplosionEnemy.cs" />
+    <Compile Include="Assets\Scripts\VenomBoss.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\CursorManager.cs" />

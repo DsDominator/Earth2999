@@ -89,7 +89,7 @@ public class BossEnemy : Enemy
         Instantiate(miniEnemy,transform.position,Quaternion.identity);
     }
     
-    private void Teleport()
+    protected void Teleport()
     {
         if (player != null)
         {
