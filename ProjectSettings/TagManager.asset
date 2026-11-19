@@ -12,6 +12,7 @@ TagManager:
   - Usb
   - SmallEnergy
   - Turret
+  - ThunderShot
   layers:
   - Default
   - TransparentFX

@@ -149,12 +149,14 @@ public class VenomBoss : BossEnemy
                 Quaternion.identity
             );
 
-            VenomBullet venomBullet =
-                bullet.GetComponent<VenomBullet>();
+            EnemyBossBullet venomBullet =
+                bullet.GetComponent<EnemyBossBullet>();
 
             if (venomBullet != null)
             {
                 venomBullet.SetDirection(bulletDirection);
+                venomBullet.SetDamage(damage);
+                venomBullet.SetMoveSpeed(venomBulletSpeed);
             }
         }
 

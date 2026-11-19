@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,6 +25,13 @@ public class Player : MonoBehaviour
     private float dashCooldownTimer;
     private bool isDashing = false;
     private bool isDead = false;
+    [Header("Slow Effect")]
+    [SerializeField] private float slowMultiplier = 0.8f;
+    [SerializeField] private float slowDuration = 3f;
+
+    private Coroutine slowCoroutine;
+    private float originalMoveSpeed;
+    private bool isSlowed;
 
     private void Awake()
     {
@@ -196,5 +204,35 @@ public class Player : MonoBehaviour
             1f - Mathf.Clamp01(
                 dashCooldownTimer / playerStats.dashCooldown
             );
+    }
+    public void ApplySlow(float multiplier, float duration)
+    {
+        if (playerStats == null)
+            return;
+
+        if (!isSlowed)
+        {
+            originalMoveSpeed = playerStats.moveSpeed;
+            isSlowed = true;
+        }
+
+        if (slowCoroutine != null)
+            StopCoroutine(slowCoroutine);
+
+        playerStats.moveSpeed = originalMoveSpeed * multiplier;
+
+        slowCoroutine = StartCoroutine(
+            SlowCoroutine(duration)
+        );
+    }
+
+    private IEnumerator SlowCoroutine(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+
+        playerStats.moveSpeed = originalMoveSpeed;
+
+        isSlowed = false;
+        slowCoroutine = null;
     }
 }

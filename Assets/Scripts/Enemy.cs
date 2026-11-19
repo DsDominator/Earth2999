@@ -1,5 +1,6 @@
 using UnityEngine;  
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public abstract class Enemy : MonoBehaviour
 {
@@ -11,10 +12,19 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] private Image hpBar;
     [SerializeField] protected float enterDamage = 10f;
     [SerializeField] protected float stayDamage = 1f;
+    [Header("Pathfinding")]
+    [SerializeField] private float repathInterval = 0.3f;
+
+    private GridPathfinder pathfinder;
+    private List<Vector3> currentPath;
+    private int pathIndex;
+    private float repathTimer;
+    private const float waypointDistance = 0.15f;
 
 
     protected virtual void Start()
     {
+        pathfinder = FindAnyObjectByType<GridPathfinder>();
         player = FindAnyObjectByType<Player>();
         currentHp = maxHp;
         UpdateHpBar();
@@ -25,11 +35,66 @@ public abstract class Enemy : MonoBehaviour
     }
     protected void MoveToPlayer()
     {
-        if(player != null)
+        if (player == null)
+            return;
+
+        // Nếu chưa có PathfindingManager thì đi thẳng như cũ
+        if (pathfinder == null)
         {
-            transform.position = Vector2.MoveTowards(transform.position,player.transform.position,enemyMovespeed*Time.deltaTime);
-            FlipEnemy();
+            MoveDirectlyToPlayer();
+            return;
         }
+
+        // Tính lại đường đi theo chu kỳ
+        repathTimer -= Time.deltaTime;
+
+        if (repathTimer <= 0f)
+        {
+            currentPath = pathfinder.FindPath(
+                transform.position,
+                player.transform.position
+            );
+
+            pathIndex = 0;
+            repathTimer = repathInterval;
+        }
+
+        // Không tìm được đường
+        if (currentPath == null || currentPath.Count == 0)
+            return;
+
+        // Đi qua các waypoint
+        Vector3 target = currentPath[pathIndex];
+
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            target,
+            enemyMovespeed * Time.deltaTime
+        );
+
+        FlipEnemy();
+
+        // Chuyển sang waypoint tiếp theo
+        if (Vector2.Distance(transform.position, target)
+            <= waypointDistance)
+        {
+            pathIndex++;
+
+            if (pathIndex >= currentPath.Count)
+                currentPath = null;
+        }
+    }
+
+    // Di chuyển thẳng khi không có PathfindingManager
+    private void MoveDirectlyToPlayer()
+    {
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            player.transform.position,
+            enemyMovespeed * Time.deltaTime
+        );
+
+        FlipEnemy();
     }
 
     protected void FlipEnemy()

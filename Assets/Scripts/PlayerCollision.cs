@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] AudioManager audioManager;
     private GunManager gunManager;
     private bool isOpeningWeaponUpgrade = false;
+    
     private void Start()
     {
         gunManager = GetComponentInChildren<GunManager>();
@@ -50,5 +52,20 @@ public class PlayerCollision : MonoBehaviour
             Destroy(collision.gameObject);
             audioManager.PlayEnergySound();
         }
+        else if (collision.CompareTag("ThunderShot"))
+        {
+            Player player = GetComponent<Player>();
+
+            if (player == null)
+                player = GetComponentInParent<Player>();
+
+            if (player != null)
+            {
+                player.ApplySlow(0.8f, 3f);
+
+                Debug.Log("Player bị giảm tốc!");
+            }
+        }
     }
 }
+

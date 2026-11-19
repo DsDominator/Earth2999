@@ -66,12 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BasicEnemy.cs" />
+    <Compile Include="Assets\Scripts\ThunderBoss.cs" />
     <Compile Include="Assets\Scripts\GunManager.cs" />
     <Compile Include="Assets\Scripts\WeaponUpgradeMenu.cs" />
     <Compile Include="Assets\Scripts\MiniEnemy.cs" />
     <Compile Include="Assets\Scripts\BossSkillDamage.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\VenomBullet.cs" />
     <Compile Include="Assets\Scripts\UpgradeMenu.cs" />
     <Compile Include="Assets\Scripts\GameUi.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\Scripts\Shotgun.cs" />
     <Compile Include="Assets\Scripts\DestroyerBoss.cs" />
+    <Compile Include="Assets\Scripts\EnemyBossBullet.cs" />
     <Compile Include="Assets\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\HealEnemy.cs" />
     <Compile Include="Assets\Scripts\TurretBullet.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\Sniper.cs" />
     <Compile Include="Assets\Scripts\PlayerBullet.cs" />
+    <Compile Include="Assets\Scripts\GridPathfinder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

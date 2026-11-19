@@ -94,6 +94,7 @@ public class DestroyerBoss : BossEnemy
                 break;
 
             case 2:
+                base.Teleport();
                 StartCoroutine(GroundSlam());
                 break;
 

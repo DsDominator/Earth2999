@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class VenomBullet : MonoBehaviour
+public class EnemyBossBullet : MonoBehaviour
 {
     [Header("Bullet Settings")]
     [SerializeField] private float moveSpeed = 12f;
@@ -46,5 +46,14 @@ public class VenomBullet : MonoBehaviour
 
             Destroy(gameObject);
         }
+    }
+    public void SetDamage(float value)
+    {
+        damage = value;
+    }
+
+    public void SetMoveSpeed(float value)
+    {
+        moveSpeed = value;
     }
 }
