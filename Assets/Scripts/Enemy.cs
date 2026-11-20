@@ -51,9 +51,10 @@ public abstract class Enemy : MonoBehaviour
         if (repathTimer <= 0f)
         {
             currentPath = pathfinder.FindPath(
-                transform.position,
-                player.transform.position
-            );
+            transform.position,
+            player.transform.position,
+            GetPathHalfSize()
+        );
 
             pathIndex = 0;
             repathTimer = repathInterval;
@@ -131,5 +132,9 @@ public abstract class Enemy : MonoBehaviour
         {
             hpBar.fillAmount = currentHp/maxHp;
         }
+    }
+    protected virtual Vector2 GetPathHalfSize()
+    {
+        return Vector2.zero;
     }
 }

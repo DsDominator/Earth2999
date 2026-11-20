@@ -138,4 +138,18 @@ public class BossEnemy : Enemy
         nextSkillTime = Time.time + skillCooldown;
         RandomSkill();
     }
+    protected override Vector2 GetPathHalfSize()
+    {
+        BoxCollider2D box = GetComponent<BoxCollider2D>();
+
+        if (box == null)
+            return Vector2.zero;
+
+        Vector3 scale = transform.lossyScale;
+
+        return new Vector2(
+            box.size.x * Mathf.Abs(scale.x) / 2f,
+            box.size.y * Mathf.Abs(scale.y) / 2f
+        );
+    }
 }
