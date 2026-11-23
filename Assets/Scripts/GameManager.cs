@@ -257,6 +257,7 @@ public class GameManager : MonoBehaviour
         stageCoroutine = StartCoroutine(EnemyStageCoroutine());
     }
 
+    
     private IEnumerator EnemyStageCoroutine()
     {
         isStageRunning = true;
@@ -273,18 +274,26 @@ public class GameManager : MonoBehaviour
             yield break;
         }
 
-        Debug.Log("Starting Stage: " + (currentStage + 1));
+        int phaseNumber = currentStage + 1;
 
-        // Spawn quái theo số lượng Stage
+        // Thiết lập Enemy Pool theo Phase
+        spawner.SetPhase(phaseNumber);
+
+        Debug.Log("Starting Phase: " + phaseNumber);
+
+        // Spawn đủ số lượng Enemy của Phase
         yield return StartCoroutine(
             spawner.SpawnWave(enemiesPerStage[currentStage])
         );
 
-        // Chờ tiêu diệt hết quái nhỏ
+        // Chờ tiêu diệt hết Enemy nhỏ
         while (CountAliveSmallEnemies() > 0)
         {
             if (gameEnded)
+            {
+                isStageRunning = false;
                 yield break;
+            }
 
             yield return new WaitForSeconds(0.5f);
         }
@@ -292,9 +301,10 @@ public class GameManager : MonoBehaviour
         isStageRunning = false;
         stageCoroutine = null;
 
-        // Xuất hiện Boss sau khi hết quái
+        // Xuất hiện Boss sau khi hết Enemy
         SpawnBoss();
     }
+
 
     private int CountAliveSmallEnemies()
     {

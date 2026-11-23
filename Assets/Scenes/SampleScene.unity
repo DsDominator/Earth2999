@@ -92193,11 +92193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1324222c979b6ac428197b7819d3f66e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies:
-  - {fileID: 7788752139866425189, guid: e2d41b8794b667b40b08ad822b6b67c8, type: 3}
-  - {fileID: 8445195635810557334, guid: ae59033af3801bd49b04f416857568ed, type: 3}
-  - {fileID: 3775288129485606612, guid: dd828b29b95c87443ad8dddf170be79a, type: 3}
-  - {fileID: 5890519373612942060, guid: 68b1a0d78dca6a3428774e5aa04b020c, type: 3}
   spawnPoints:
   - {fileID: 93147025}
   - {fileID: 1681507455}
@@ -92205,8 +92200,57 @@ MonoBehaviour:
   - {fileID: 169046204}
   - {fileID: 1627392700}
   timeBetweenSpawns: 2
-  minSpawnTime: 1.2
-  reduceSpawnTime: 0.1
+  phaseSettings:
+  - phaseNumber: 1
+    enemies:
+    - enemyPrefab: {fileID: 7788752139866425189, guid: e2d41b8794b667b40b08ad822b6b67c8, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 8445195635810557334, guid: ae59033af3801bd49b04f416857568ed, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 5890519373612942060, guid: 68b1a0d78dca6a3428774e5aa04b020c, type: 3}
+      spawnWeight: 25
+    - enemyPrefab: {fileID: 3775288129485606612, guid: dd828b29b95c87443ad8dddf170be79a, type: 3}
+      spawnWeight: 15
+  - phaseNumber: 2
+    enemies:
+    - enemyPrefab: {fileID: 7788752139866425189, guid: e2d41b8794b667b40b08ad822b6b67c8, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 8445195635810557334, guid: ae59033af3801bd49b04f416857568ed, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 5890519373612942060, guid: 68b1a0d78dca6a3428774e5aa04b020c, type: 3}
+      spawnWeight: 25
+    - enemyPrefab: {fileID: 3775288129485606612, guid: dd828b29b95c87443ad8dddf170be79a, type: 3}
+      spawnWeight: 15
+  - phaseNumber: 3
+    enemies:
+    - enemyPrefab: {fileID: 7788752139866425189, guid: e2d41b8794b667b40b08ad822b6b67c8, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 8445195635810557334, guid: ae59033af3801bd49b04f416857568ed, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 5890519373612942060, guid: 68b1a0d78dca6a3428774e5aa04b020c, type: 3}
+      spawnWeight: 25
+    - enemyPrefab: {fileID: 3775288129485606612, guid: dd828b29b95c87443ad8dddf170be79a, type: 3}
+      spawnWeight: 15
+  - phaseNumber: 4
+    enemies:
+    - enemyPrefab: {fileID: 7788752139866425189, guid: e2d41b8794b667b40b08ad822b6b67c8, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 8445195635810557334, guid: ae59033af3801bd49b04f416857568ed, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 5890519373612942060, guid: 68b1a0d78dca6a3428774e5aa04b020c, type: 3}
+      spawnWeight: 25
+    - enemyPrefab: {fileID: 3775288129485606612, guid: dd828b29b95c87443ad8dddf170be79a, type: 3}
+      spawnWeight: 15
+  - phaseNumber: 5
+    enemies:
+    - enemyPrefab: {fileID: 7788752139866425189, guid: e2d41b8794b667b40b08ad822b6b67c8, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 8445195635810557334, guid: ae59033af3801bd49b04f416857568ed, type: 3}
+      spawnWeight: 30
+    - enemyPrefab: {fileID: 5890519373612942060, guid: 68b1a0d78dca6a3428774e5aa04b020c, type: 3}
+      spawnWeight: 25
+    - enemyPrefab: {fileID: 3775288129485606612, guid: dd828b29b95c87443ad8dddf170be79a, type: 3}
+      spawnWeight: 15
 --- !u!4 &419297286
 Transform:
   m_ObjectHideFlags: 0
@@ -101074,7 +101118,7 @@ MonoBehaviour:
   audioManager: {fileID: 1901665123}
   cam: {fileID: 1044476157}
   upgradeMenu: {fileID: 893718198}
-  enemiesPerStage: 640000007800000096000000b4000000e1000000
+  enemiesPerStage: 7800000096000000b4000000e1000000e1000000
   bosses:
   - {fileID: 1403365652130659004}
   - {fileID: 9164296544027794875}
