@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 51daae95241b3bb4682d093d549689ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -751056907043897071
+    second: FlameTrailWarinng_0
+  - first:
+      213: 6574920617036849323
+    second: FlameTrailWarinng_1
+  - first:
+      213: 6064556562237634254
+    second: FlameTrailWarinng_2
+  - first:
+      213: -7210114942120304769
+    second: FlameTrailWarinng_3
+  - first:
+      213: -4013068594038688917
+    second: FlameTrailWarinng_4
+  - first:
+      213: -4037340652720735219
+    second: FlameTrailWarinng_5
+  - first:
+      213: 8237400475642860502
+    second: FlameTrailWarinng_6
+  - first:
+      213: -5660290348271148310
+    second: FlameTrailWarinng_7
+  - first:
+      213: -2928304297713252749
+    second: FlameTrailWarinng_8
+  - first:
+      213: -4824740723138436701
+    second: FlameTrailWarinng_9
+  - first:
+      213: 7139492249936964952
+    second: FlameTrailWarinng_10
+  - first:
+      213: -5865771098993039761
+    second: FlameTrailWarinng_11
+  - first:
+      213: 5780467962853188697
+    second: FlameTrailWarinng_12
+  - first:
+      213: -2571590985258095794
+    second: FlameTrailWarinng_13
+  - first:
+      213: 8554868435062085067
+    second: FlameTrailWarinng_14
+  - first:
+      213: 3699202010963726551
+    second: FlameTrailWarinng_15
+  - first:
+      213: 8096103932811738057
+    second: FlameTrailWarinng_16
+  - first:
+      213: -5548656046632406863
+    second: FlameTrailWarinng_17
+  - first:
+      213: -2275974851092548126
+    second: FlameTrailWarinng_18
+  - first:
+      213: -4550500041994744823
+    second: FlameTrailWarinng_19
+  - first:
+      213: -1864941980939079822
+    second: FlameTrailWarinng_20
+  - first:
+      213: -8837672595861799420
+    second: FlameTrailWarinng_21
+  - first:
+      213: -4330900292835712839
+    second: FlameTrailWarinng_22
+  - first:
+      213: 7826038690987643451
+    second: FlameTrailWarinng_23
+  - first:
+      213: 5773583641185308848
+    second: FlameTrailWarinng_24
+  - first:
+      213: 5280772208277147498
+    second: FlameTrailWarinng_25
+  - first:
+      213: 3222279218933103138
+    second: FlameTrailWarinng_26
+  - first:
+      213: 7466769757943797465
+    second: FlameTrailWarinng_27
+  - first:
+      213: -5113993239888969523
+    second: FlameTrailWarinng_28
+  - first:
+      213: -4744181652316363128
+    second: FlameTrailWarinng_29
+  - first:
+      213: 7570880029897760968
+    second: FlameTrailWarinng_30
+  - first:
+      213: 1978264944246025242
+    second: FlameTrailWarinng_31
+  - first:
+      213: -6026377957056736299
+    second: FlameTrailWarinng_32
+  - first:
+      213: 2998901186339841792
+    second: FlameTrailWarinng_33
+  - first:
+      213: -1379268152109322317
+    second: FlameTrailWarinng_34
+  - first:
+      213: -8652614811832122746
+    second: FlameTrailWarinng_35
+  - first:
+      213: 2237343664514369651
+    second: FlameTrailWarinng_36
+  - first:
+      213: -7237047738637148839
+    second: FlameTrailWarinng_37
+  - first:
+      213: -8044348469626027607
+    second: FlameTrailWarinng_38
+  - first:
+      213: -4828728449787340279
+    second: FlameTrailWarinng_39
+  - first:
+      213: 405255671470907785
+    second: FlameTrailWarinng_40
+  - first:
+      213: 3623494463291272327
+    second: FlameTrailWarinng_41
+  - first:
+      213: 2341276692319266664
+    second: FlameTrailWarinng_42
+  - first:
+      213: -8875189738145445226
+    second: FlameTrailWarinng_43
+  - first:
+      213: 5045089869119612161
+    second: FlameTrailWarinng_44
+  - first:
+      213: -6999348292661061587
+    second: FlameTrailWarinng_45
+  - first:
+      213: -950418130658463551
+    second: FlameTrailWarinng_46
+  - first:
+      213: -9114454422734599322
+    second: FlameTrailWarinng_47
+  - first:
+      213: -6120783622525521973
+    second: FlameTrailWarinng_48
+  - first:
+      213: 4794752971378062574
+    second: FlameTrailWarinng_49
+  - first:
+      213: -7120359273587509825
+    second: FlameTrailWarinng_50
+  - first:
+      213: 7895798957970956185
+    second: FlameTrailWarinng_51
+  - first:
+      213: 4212659255396029750
+    second: FlameTrailWarinng_52
+  - first:
+      213: -7297951519561218499
+    second: FlameTrailWarinng_53
+  - first:
+      213: 2746943431653537091
+    second: FlameTrailWarinng_54
+  - first:
+      213: -7433723720066175019
+    second: FlameTrailWarinng_55
+  - first:
+      213: 6932477262277371147
+    second: FlameTrailWarinng_56
+  - first:
+      213: 6054891105230952502
+    second: FlameTrailWarinng_57
+  - first:
+      213: 2304004731303394265
+    second: FlameTrailWarinng_58
+  - first:
+      213: -228843780211448116
+    second: FlameTrailWarinng_59
+  - first:
+      213: 6386137417345777079
+    second: FlameTrailWarinng_60
+  - first:
+      213: -2020549824175302037
+    second: FlameTrailWarinng_61
+  - first:
+      213: -2370489219899949507
+    second: FlameTrailWarinng_62
+  - first:
+      213: 3931051735130487647
+    second: FlameTrailWarinng_63
+  - first:
+      213: -5072949347635870539
+    second: FlameTrailWarinng_64
+  - first:
+      213: -48067851957269870
+    second: FlameTrailWarinng_65
+  - first:
+      213: 1717944999900265804
+    second: FlameTrailWarinng_66
+  - first:
+      213: -5576311008765858232
+    second: FlameTrailWarinng_67
+  - first:
+      213: -8919379405652164234
+    second: FlameTrailWarinng_68
+  - first:
+      213: 2704829232776466507
+    second: FlameTrailWarinng_69
+  - first:
+      213: 877301026407711543
+    second: FlameTrailWarinng_70
+  - first:
+      213: 736436856833275764
+    second: FlameTrailWarinng_71
+  - first:
+      213: -7365346824488421347
+    second: FlameTrailWarinng_72
+  - first:
+      213: -15355653999245376
+    second: FlameTrailWarinng_73
+  - first:
+      213: 6957630279563773061
+    second: FlameTrailWarinng_74
+  - first:
+      213: 1294616929722638945
+    second: FlameTrailWarinng_75
+  - first:
+      213: -6079886383959224170
+    second: FlameTrailWarinng_76
+  - first:
+      213: -8365954802892088818
+    second: FlameTrailWarinng_77
+  - first:
+      213: 3598362335084734322
+    second: FlameTrailWarinng_78
+  - first:
+      213: 5118330208700807756
+    second: FlameTrailWarinng_79
+  - first:
+      213: -5784082299145136136
+    second: FlameTrailWarinng_80
+  - first:
+      213: 8154049933599526643
+    second: FlameTrailWarinng_81
+  - first:
+      213: 5029861998786169138
+    second: FlameTrailWarinng_82
+  - first:
+      213: -2840818488089470757
+    second: FlameTrailWarinng_83
+  - first:
+      213: 6120158867870935003
+    second: FlameTrailWarinng_84
+  - first:
+      213: -6367804367743569709
+    second: FlameTrailWarinng_85
+  - first:
+      213: -3146734794807829066
+    second: FlameTrailWarinng_86
+  - first:
+      213: 5272257757307543327
+    second: FlameTrailWarinng_87
+  - first:
+      213: -3411711905887912386
+    second: FlameTrailWarinng_88
+  - first:
+      213: -1106933696271397416
+    second: FlameTrailWarinng_89
+  - first:
+      213: 6720726136563011208
+    second: FlameTrailWarinng_90
+  - first:
+      213: -1934256973099054177
+    second: FlameTrailWarinng_91
+  - first:
+      213: 1998277341978728292
+    second: FlameTrailWarinng_92
+  - first:
+      213: -3307389988336983130
+    second: FlameTrailWarinng_93
+  - first:
+      213: 6445614867368428844
+    second: FlameTrailWarinng_94
+  - first:
+      213: -628252133284513771
+    second: FlameTrailWarinng_95
+  - first:
+      213: 6400223030092177501
+    second: FlameTrailWarinng_96
+  - first:
+      213: -4141594873322765973
+    second: FlameTrailWarinng_97
+  - first:
+      213: -5989959252019571918
+    second: FlameTrailWarinng_98
+  - first:
+      213: 130091691117267382
+    second: FlameTrailWarinng_99
+  - first:
+      213: -5551229517468487819
+    second: FlameTrailWarinng_100
+  - first:
+      213: -7972454456898642594
+    second: FlameTrailWarinng_101
+  - first:
+      213: -5971917470225959441
+    second: FlameTrailWarinng_102
+  - first:
+      213: -2885808399056228410
+    second: FlameTrailWarinng_103
+  - first:
+      213: 981925946896636115
+    second: FlameTrailWarinng_104
+  - first:
+      213: -8489504254617044241
+    second: FlameTrailWarinng_105
+  - first:
+      213: -1154099147847412239
+    second: FlameTrailWarinng_106
+  - first:
+      213: -6508695389245574594
+    second: FlameTrailWarinng_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlameTrailWarinng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 724
+        height: 362
+      alignment: 9
+      pivot: {x: 0.49114418, y: 0.12805538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1118b89e8b5b395f0800000000000000
+      internalID: -751056907043897071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrailWarinng_1
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 362
+        width: 724
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5053136, y: 0.12805538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0afdc377fce3b50800000000000000
+      internalID: 6574920617036849323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrailWarinng_2
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 362
+        width: 724
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5070846, y: 0.120970584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6307cdf02a92450800000000000000
+      internalID: 6064556562237634254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrailWarinng_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 724
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fde2539a680fb90800000000000000
+      internalID: -7210114942120304769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrailWarinng_4
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 724
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b633c093067be48c0800000000000000
+      internalID: -4013068594038688917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrailWarinng_5
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 724
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c365d211c78f7c0800000000000000
+      internalID: -4037340652720735219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f11745814b935b34392e020940af2952
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FlameTrailWarinng_0: -751056907043897071
+      FlameTrailWarinng_1: 6574920617036849323
+      FlameTrailWarinng_2: 6064556562237634254
+      FlameTrailWarinng_3: -7210114942120304769
+      FlameTrailWarinng_4: -4013068594038688917
+      FlameTrailWarinng_5: -4037340652720735219
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

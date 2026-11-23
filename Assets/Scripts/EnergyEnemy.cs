@@ -30,7 +30,7 @@ public class EnergyEnemy : Enemy
         if(energyObject != null)
         {
             GameObject energy = Instantiate(energyObject,transform.position,Quaternion.identity);
-            Destroy(energy,5f);
+            Destroy(energy,7f);
         }
         base.Die();
     }

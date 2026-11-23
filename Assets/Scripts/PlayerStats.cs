@@ -21,8 +21,8 @@ public class PlayerStats : MonoBehaviour
     // Upgrade Health
     public void UpgradeHealth()
     {
-        maxHealth += 20f;
-        currentHealth = Mathf.Min(currentHealth + 20f, maxHealth);
+        maxHealth += 25f;
+        currentHealth = Mathf.Min(currentHealth + 25f, maxHealth);
     }
 
     // Upgrade Speed

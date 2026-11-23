@@ -1,72 +1,137 @@
-using UnityEngine;  
+
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
 public abstract class Enemy : MonoBehaviour
 {
+    [Header("Movement")]
     [SerializeField] protected float enemyMovespeed = 1f;
+
     protected Player player;
+
+    [Header("Health")]
     [SerializeField] protected float maxHp = 50f;
     protected float currentHp;
     protected bool isDead = false;
+
     [SerializeField] private Image hpBar;
+
+    [Header("Damage")]
     [SerializeField] protected float enterDamage = 10f;
     [SerializeField] protected float stayDamage = 1f;
+
     [Header("Pathfinding")]
-    [SerializeField] private float repathInterval = 0.3f;
+    [SerializeField] private float repathInterval = 0.5f;
+    [SerializeField] private float targetMoveThreshold = 1f;
+    [SerializeField] private float waypointDistance = 0.2f;
 
     private GridPathfinder pathfinder;
     private List<Vector3> currentPath;
+
     private int pathIndex;
     private float repathTimer;
-    private const float waypointDistance = 0.15f;
 
+    private Vector3 lastTargetPosition;
+
+    // =====================================
+    // START
+    // =====================================
 
     protected virtual void Start()
     {
         pathfinder = FindAnyObjectByType<GridPathfinder>();
         player = FindAnyObjectByType<Player>();
+
         currentHp = maxHp;
         UpdateHpBar();
+
+        if (player != null)
+        {
+            lastTargetPosition = player.transform.position;
+        }
+
+        // Cho phép tìm đường ngay lần đầu.
+        repathTimer = 0f;
     }
+
+    // =====================================
+    // UPDATE
+    // =====================================
+
     protected virtual void Update()
     {
+        if (isDead)
+            return;
+
         MoveToPlayer();
     }
+
+    // =====================================
+    // MOVE TO PLAYER
+    // =====================================
+
     protected void MoveToPlayer()
     {
         if (player == null)
             return;
 
-        // Nếu chưa có PathfindingManager thì đi thẳng như cũ
+        // Không có PathfindingManager thì di chuyển trực tiếp.
         if (pathfinder == null)
         {
             MoveDirectlyToPlayer();
             return;
         }
 
-        // Tính lại đường đi theo chu kỳ
         repathTimer -= Time.deltaTime;
 
-        if (repathTimer <= 0f)
-        {
-            currentPath = pathfinder.FindPath(
-            transform.position,
+        float targetDistance = Vector2.Distance(
             player.transform.position,
-            GetPathHalfSize()
+            lastTargetPosition
         );
 
-            pathIndex = 0;
+        bool hasNoPath =
+            currentPath == null ||
+            currentPath.Count == 0;
+
+        bool targetMoved =
+            targetDistance >= targetMoveThreshold;
+
+        // Chỉ tìm đường khi cần thiết.
+        if ((hasNoPath || targetMoved) && repathTimer <= 0f)
+        {
+            List<Vector3> newPath = pathfinder.FindPath(
+                transform.position,
+                player.transform.position,
+                GetPathHalfSize()
+            );
+
+            // Chỉ thay đường cũ khi tìm được đường mới hợp lệ.
+            if (newPath != null && newPath.Count > 0)
+            {
+                currentPath = newPath;
+                pathIndex = 0;
+
+                lastTargetPosition = player.transform.position;
+            }
+
             repathTimer = repathInterval;
         }
 
-        // Không tìm được đường
+        // Không có đường đi hợp lệ.
         if (currentPath == null || currentPath.Count == 0)
             return;
 
-        // Đi qua các waypoint
+        // Kiểm tra waypoint.
+        if (pathIndex >= currentPath.Count)
+        {
+            currentPath = null;
+            return;
+        }
+
         Vector3 target = currentPath[pathIndex];
 
+        // Di chuyển đến waypoint.
         transform.position = Vector2.MoveTowards(
             transform.position,
             target,
@@ -75,18 +140,23 @@ public abstract class Enemy : MonoBehaviour
 
         FlipEnemy();
 
-        // Chuyển sang waypoint tiếp theo
+        // Đã đến waypoint thì chuyển sang waypoint tiếp theo.
         if (Vector2.Distance(transform.position, target)
             <= waypointDistance)
         {
             pathIndex++;
 
             if (pathIndex >= currentPath.Count)
+            {
                 currentPath = null;
+            }
         }
     }
 
-    // Di chuyển thẳng khi không có PathfindingManager
+    // =====================================
+    // DIRECT MOVEMENT
+    // =====================================
+
     private void MoveDirectlyToPlayer()
     {
         transform.position = Vector2.MoveTowards(
@@ -98,43 +168,73 @@ public abstract class Enemy : MonoBehaviour
         FlipEnemy();
     }
 
+    // =====================================
+    // AGENT SIZE FOR PATHFINDING
+    // =====================================
+
+    protected virtual Vector2 GetPathHalfSize()
+    {
+        return Vector2.zero;
+    }
+
+    // =====================================
+    // FLIP
+    // =====================================
+
     protected void FlipEnemy()
     {
-        if(player != null)
-        {
-            transform.localScale = new Vector3(player.transform.position.x<transform.position.x?-1:1,1,1);
-        }
+        if (player == null)
+            return;
+
+        transform.localScale = new Vector3(
+            player.transform.position.x < transform.position.x ? -1 : 1,
+            1,
+            1
+        );
     }
+
+    // =====================================
+    // TAKE DAMAGE
+    // =====================================
+
     public virtual void TakeDamage(float damage)
     {
         if (isDead)
-        return;
-        currentHp-=damage;
-        currentHp=Mathf.Max(currentHp,0);
+            return;
+
+        currentHp -= damage;
+        currentHp = Mathf.Max(currentHp, 0);
+
         UpdateHpBar();
+
         if (currentHp <= 0)
         {
             Die();
         }
     }
 
+    // =====================================
+    // DIE
+    // =====================================
+
     protected virtual void Die()
     {
         if (isDead)
-        return;
+            return;
+
         isDead = true;
         Destroy(gameObject);
     }
 
+    // =====================================
+    // HP BAR
+    // =====================================
+
     protected void UpdateHpBar()
     {
-        if (hpBar != null)
+        if (hpBar != null && maxHp > 0)
         {
-            hpBar.fillAmount = currentHp/maxHp;
+            hpBar.fillAmount = currentHp / maxHp;
         }
-    }
-    protected virtual Vector2 GetPathHalfSize()
-    {
-        return Vector2.zero;
     }
 }

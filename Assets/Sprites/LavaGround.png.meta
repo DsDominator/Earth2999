@@ -1,0 +1,529 @@
+fileFormatVersion: 2
+guid: ed968e21144b3f847b282cc126871c91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4797728610000489164
+    second: LavaGround_0
+  - first:
+      213: -8992802232881926430
+    second: LavaGround_1
+  - first:
+      213: -2109781825249741064
+    second: LavaGround_2
+  - first:
+      213: -8586545976139211447
+    second: LavaGround_3
+  - first:
+      213: -5186043422744086574
+    second: LavaGround_4
+  - first:
+      213: -4160341319575041774
+    second: LavaGround_5
+  - first:
+      213: -4629915198785704964
+    second: LavaGround_6
+  - first:
+      213: -1744926448916093882
+    second: LavaGround_7
+  - first:
+      213: -7637876843377894466
+    second: LavaGround_8
+  - first:
+      213: -8598408431382893980
+    second: LavaGround_9
+  - first:
+      213: -8825227828935732423
+    second: LavaGround_10
+  - first:
+      213: 2029946732986626505
+    second: LavaGround_11
+  - first:
+      213: -4277186403311163884
+    second: LavaGround_12
+  - first:
+      213: -8040170099447485769
+    second: LavaGround_13
+  - first:
+      213: -8642263186211322604
+    second: LavaGround_14
+  - first:
+      213: 257411913409784573
+    second: LavaGround_15
+  - first:
+      213: 3998984353040270548
+    second: LavaGround_16
+  - first:
+      213: -6513530629308107892
+    second: LavaGround_17
+  - first:
+      213: 4103770934242774681
+    second: LavaGround_18
+  - first:
+      213: 1361306084140308863
+    second: LavaGround_19
+  - first:
+      213: 16830765882454798
+    second: LavaGround_20
+  - first:
+      213: 4743727581621073066
+    second: LavaGround_21
+  - first:
+      213: -3425122410223098862
+    second: LavaGround_22
+  - first:
+      213: -4985211652907711211
+    second: LavaGround_23
+  - first:
+      213: -3571842570820586316
+    second: LavaGround_24
+  - first:
+      213: 4131944746452124586
+    second: LavaGround_25
+  - first:
+      213: -5894500034262273939
+    second: LavaGround_26
+  - first:
+      213: -8186975100874633280
+    second: LavaGround_27
+  - first:
+      213: -2724286171248407486
+    second: LavaGround_28
+  - first:
+      213: -7968179384791645313
+    second: LavaGround_29
+  - first:
+      213: 7308361515154519357
+    second: LavaGround_30
+  - first:
+      213: 5712894594429948270
+    second: LavaGround_31
+  - first:
+      213: 4286883645883827646
+    second: LavaGround_32
+  - first:
+      213: -5694749928911408370
+    second: LavaGround_33
+  - first:
+      213: 6046410680875950867
+    second: LavaGround_34
+  - first:
+      213: 3199662733289709853
+    second: LavaGround_35
+  - first:
+      213: 6671020359613961372
+    second: LavaGround_36
+  - first:
+      213: -2107892548484122800
+    second: LavaGround_37
+  - first:
+      213: 7881036006406339465
+    second: LavaGround_38
+  - first:
+      213: 9090639044007223293
+    second: LavaGround_39
+  - first:
+      213: -9100506280459048759
+    second: LavaGround_40
+  - first:
+      213: -2044846922940693514
+    second: LavaGround_41
+  - first:
+      213: 1701014999807450529
+    second: LavaGround_42
+  - first:
+      213: 4452975485766701553
+    second: LavaGround_43
+  - first:
+      213: -2279575776235743573
+    second: LavaGround_44
+  - first:
+      213: -4605136843639875809
+    second: LavaGround_45
+  - first:
+      213: 5049037243086696347
+    second: LavaGround_46
+  - first:
+      213: 4076216301689841854
+    second: LavaGround_47
+  - first:
+      213: 4526269196368295581
+    second: LavaGround_48
+  - first:
+      213: -919792562090698755
+    second: LavaGround_49
+  - first:
+      213: 3021439161653255957
+    second: LavaGround_50
+  - first:
+      213: 857876744690727086
+    second: LavaGround_51
+  - first:
+      213: -7163794554642368795
+    second: LavaGround_52
+  - first:
+      213: -8010122124586636599
+    second: LavaGround_53
+  - first:
+      213: 6100305978292459428
+    second: LavaGround_54
+  - first:
+      213: -1417144298324692931
+    second: LavaGround_55
+  - first:
+      213: 4415464001469761705
+    second: LavaGround_56
+  - first:
+      213: -1481920402800183554
+    second: LavaGround_57
+  - first:
+      213: -7889556048537679631
+    second: LavaGround_58
+  - first:
+      213: -1065851386131123756
+    second: LavaGround_59
+  - first:
+      213: 6253637687462632688
+    second: LavaGround_60
+  - first:
+      213: 2782588794344198614
+    second: LavaGround_61
+  - first:
+      213: -5052881142805844462
+    second: LavaGround_62
+  - first:
+      213: 5046992342535243693
+    second: LavaGround_63
+  - first:
+      213: -1800145146982303514
+    second: LavaGround_64
+  - first:
+      213: -2811985723284055473
+    second: LavaGround_65
+  - first:
+      213: 5028109363360990904
+    second: LavaGround_66
+  - first:
+      213: -1769004757705785009
+    second: LavaGround_67
+  - first:
+      213: 1211645729338351181
+    second: LavaGround_68
+  - first:
+      213: -3277618037435006693
+    second: LavaGround_69
+  - first:
+      213: -4691905319711665706
+    second: LavaGround_70
+  - first:
+      213: 5355945006687651764
+    second: LavaGround_71
+  - first:
+      213: -8023557107887631716
+    second: LavaGround_72
+  - first:
+      213: 8475864713624511882
+    second: LavaGround_73
+  - first:
+      213: -1028196463650418659
+    second: LavaGround_74
+  - first:
+      213: 4276473903120250763
+    second: LavaGround_75
+  - first:
+      213: 2207541631831104568
+    second: LavaGround_76
+  - first:
+      213: 4651890769432387715
+    second: LavaGround_77
+  - first:
+      213: 6028553587278421412
+    second: LavaGround_78
+  - first:
+      213: -3448329670357350235
+    second: LavaGround_79
+  - first:
+      213: -3417601194473675056
+    second: LavaGround_80
+  - first:
+      213: -7772710554516724669
+    second: LavaGround_81
+  - first:
+      213: -2346160537203841550
+    second: LavaGround_82
+  - first:
+      213: 5130373648126858323
+    second: LavaGround_83
+  - first:
+      213: 1150271102140759862
+    second: LavaGround_84
+  - first:
+      213: -5962879104055277057
+    second: LavaGround_85
+  - first:
+      213: 7389763318976193424
+    second: LavaGround_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LavaGround_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccacec750c4f49240800000000000000
+      internalID: 4797728610000489164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaGround_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eeabbdd306233380800000000000000
+      internalID: -8992802232881926430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaGround_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6f968ab9c88b2e0800000000000000
+      internalID: -2109781825249741064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaGround_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d99ac9de576d880800000000000000
+      internalID: -8586545976139211447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaGround_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7769ddbf87708b0800000000000000
+      internalID: -5186043422744086574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaGround_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219895ebc9f7346c0800000000000000
+      internalID: -4160341319575041774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0895ea2f92c0154418f4486fdf7d501f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LavaGround_0: 4797728610000489164
+      LavaGround_1: -8992802232881926430
+      LavaGround_2: -2109781825249741064
+      LavaGround_3: -8586545976139211447
+      LavaGround_4: -5186043422744086574
+      LavaGround_5: -4160341319575041774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

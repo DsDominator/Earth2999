@@ -54,7 +54,7 @@ public class UpgradeMenu : MonoBehaviour
         new UpgradeOption
         {
             upgradeName = "Health Boost",
-            description = "Increase Max HP by 20 and restore 20 HP.",
+            description = "Increase Max HP by 25 and restore 25 HP.",
             type = UpgradeType.Health
         },
 

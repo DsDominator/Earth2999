@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: d3e53bb978bf26d4883402eca86be892
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2795207745818904963
+    second: FlameTrail_0
+  - first:
+      213: -8244175306191542187
+    second: FlameTrail_1
+  - first:
+      213: -1167741563885701686
+    second: FlameTrail_2
+  - first:
+      213: 2886293743706240243
+    second: FlameTrail_3
+  - first:
+      213: 7262410972440216788
+    second: FlameTrail_4
+  - first:
+      213: -451359238063503579
+    second: FlameTrail_5
+  - first:
+      213: 5004912716971496474
+    second: FlameTrail_6
+  - first:
+      213: 7452241237825787185
+    second: FlameTrail_7
+  - first:
+      213: -8180129057273764996
+    second: FlameTrail_8
+  - first:
+      213: -2711137940348783681
+    second: FlameTrail_9
+  - first:
+      213: 7065421794087193008
+    second: FlameTrail_10
+  - first:
+      213: -6485462089537980492
+    second: FlameTrail_11
+  - first:
+      213: -4948188995905661415
+    second: FlameTrail_12
+  - first:
+      213: -5171536607901354963
+    second: FlameTrail_13
+  - first:
+      213: -8455288543643562211
+    second: FlameTrail_14
+  - first:
+      213: 4095766685501653986
+    second: FlameTrail_15
+  - first:
+      213: -5591607071418063121
+    second: FlameTrail_16
+  - first:
+      213: -7707574473121813259
+    second: FlameTrail_17
+  - first:
+      213: -8169074677937818889
+    second: FlameTrail_18
+  - first:
+      213: -615358806924107252
+    second: FlameTrail_19
+  - first:
+      213: 1928897925477516322
+    second: FlameTrail_20
+  - first:
+      213: -1261202966378767184
+    second: FlameTrail_21
+  - first:
+      213: 5673321105736574014
+    second: FlameTrail_22
+  - first:
+      213: -6557187481528564378
+    second: FlameTrail_23
+  - first:
+      213: -609062863529619233
+    second: FlameTrail_24
+  - first:
+      213: -1807777046640426731
+    second: FlameTrail_25
+  - first:
+      213: 5029501204779960085
+    second: FlameTrail_26
+  - first:
+      213: 7483120140910442342
+    second: FlameTrail_27
+  - first:
+      213: -3978407802693815938
+    second: FlameTrail_28
+  - first:
+      213: 1269371261863067285
+    second: FlameTrail_29
+  - first:
+      213: 3626671558488080068
+    second: FlameTrail_30
+  - first:
+      213: -7240747065575922984
+    second: FlameTrail_31
+  - first:
+      213: -6774161448917652786
+    second: FlameTrail_32
+  - first:
+      213: -7097492600207152900
+    second: FlameTrail_33
+  - first:
+      213: -8849728923313762229
+    second: FlameTrail_34
+  - first:
+      213: 8718843209761004883
+    second: FlameTrail_35
+  - first:
+      213: 815648830639483458
+    second: FlameTrail_36
+  - first:
+      213: 6717294796928215248
+    second: FlameTrail_37
+  - first:
+      213: -1105353493063358400
+    second: FlameTrail_38
+  - first:
+      213: 6401225324820456468
+    second: FlameTrail_39
+  - first:
+      213: 4259940643276290388
+    second: FlameTrail_40
+  - first:
+      213: -4466975832815598950
+    second: FlameTrail_41
+  - first:
+      213: -3732406912472853230
+    second: FlameTrail_42
+  - first:
+      213: -2911793797497004835
+    second: FlameTrail_43
+  - first:
+      213: -7058199794811207746
+    second: FlameTrail_44
+  - first:
+      213: 806888364976111955
+    second: FlameTrail_45
+  - first:
+      213: 1082105326751769192
+    second: FlameTrail_46
+  - first:
+      213: -3143648374434281134
+    second: FlameTrail_47
+  - first:
+      213: -4147133539214795881
+    second: FlameTrail_48
+  - first:
+      213: -9107879281228474862
+    second: FlameTrail_49
+  - first:
+      213: 4270787518299619327
+    second: FlameTrail_50
+  - first:
+      213: 7568529028911367531
+    second: FlameTrail_51
+  - first:
+      213: 7214169087397199409
+    second: FlameTrail_52
+  - first:
+      213: -8055331622813073213
+    second: FlameTrail_53
+  - first:
+      213: -2938227367611315961
+    second: FlameTrail_54
+  - first:
+      213: -8212766194485803590
+    second: FlameTrail_55
+  - first:
+      213: -1225950864913687
+    second: FlameTrail_56
+  - first:
+      213: -7054531938827206342
+    second: FlameTrail_57
+  - first:
+      213: 3584141949048151487
+    second: FlameTrail_58
+  - first:
+      213: -2958358881732201645
+    second: FlameTrail_59
+  - first:
+      213: 7015114234310110802
+    second: FlameTrail_60
+  - first:
+      213: -4153488602658128400
+    second: FlameTrail_61
+  - first:
+      213: -2955303331490785384
+    second: FlameTrail_62
+  - first:
+      213: 8112164878705287301
+    second: FlameTrail_63
+  - first:
+      213: 3601584018872160769
+    second: FlameTrail_64
+  - first:
+      213: -5702181473678211676
+    second: FlameTrail_65
+  - first:
+      213: 3755310590055313822
+    second: FlameTrail_66
+  - first:
+      213: 8497770596422519596
+    second: FlameTrail_67
+  - first:
+      213: -3758552850679361503
+    second: FlameTrail_68
+  - first:
+      213: -4649785078813241918
+    second: FlameTrail_69
+  - first:
+      213: 5672191796940006048
+    second: FlameTrail_70
+  - first:
+      213: 1120975755984220701
+    second: FlameTrail_71
+  - first:
+      213: 5057400160793264465
+    second: FlameTrail_72
+  - first:
+      213: -5081769863288429857
+    second: FlameTrail_73
+  - first:
+      213: -4903601819175798638
+    second: FlameTrail_74
+  - first:
+      213: 25396206788801805
+    second: FlameTrail_75
+  - first:
+      213: -7146177179781662780
+    second: FlameTrail_76
+  - first:
+      213: -7777980161442149716
+    second: FlameTrail_77
+  - first:
+      213: -7234930638005920469
+    second: FlameTrail_78
+  - first:
+      213: -2564401502131370273
+    second: FlameTrail_79
+  - first:
+      213: 7242198242399901064
+    second: FlameTrail_80
+  - first:
+      213: -2975843045608633459
+    second: FlameTrail_81
+  - first:
+      213: -5664569696628143959
+    second: FlameTrail_82
+  - first:
+      213: -2979845350419272561
+    second: FlameTrail_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlameTrail_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 724
+        height: 362
+      alignment: 9
+      pivot: {x: 0.49291533, y: 0.24141006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d763b056d5d6539d0800000000000000
+      internalID: -2795207745818904963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrail_1
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 362
+        width: 724
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24849468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558e7601d3ec69d80800000000000000
+      internalID: -8244175306191542187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrail_2
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 362
+        width: 724
+        height: 362
+      alignment: 9
+      pivot: {x: 0.48937297, y: 0.23432535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5322f0c395bcfe0800000000000000
+      internalID: -1167741563885701686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrail_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 724
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4fa0f1edc2e0820800000000000000
+      internalID: 2886293743706240243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrail_4
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 724
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4c2313d4449c460800000000000000
+      internalID: 7262410972440216788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameTrail_5
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 724
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52742251a237cb9f0800000000000000
+      internalID: -451359238063503579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5470acc1326791f40a2142fe26d6f15d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FlameTrail_0: -2795207745818904963
+      FlameTrail_1: -8244175306191542187
+      FlameTrail_2: -1167741563885701686
+      FlameTrail_3: 2886293743706240243
+      FlameTrail_4: 7262410972440216788
+      FlameTrail_5: -451359238063503579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

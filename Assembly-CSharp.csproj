@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\ThunderBoss.cs" />
     <Compile Include="Assets\Scripts\GunManager.cs" />
     <Compile Include="Assets\Scripts\WeaponUpgradeMenu.cs" />
+    <Compile Include="Assets\Scripts\FireDamageArea.cs" />
     <Compile Include="Assets\Scripts\MiniEnemy.cs" />
     <Compile Include="Assets\Scripts\BossSkillDamage.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\Pistol.cs" />
     <Compile Include="Assets\Scripts\ExplosionEnemy.cs" />
     <Compile Include="Assets\Scripts\VenomBoss.cs" />
+    <Compile Include="Assets\Scripts\InfernoBoss.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\CursorManager.cs" />
