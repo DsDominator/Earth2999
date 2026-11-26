@@ -722,6 +722,7 @@ MonoBehaviour:
   skillCooldown: 1.5
   usbPrefabs: {fileID: 4577696817114358760, guid: c04b4f7355130f242b778f1bd6cedf94, type: 3}
   gameManager: {fileID: 1326204859}
+  animator: {fileID: 0}
   fireballPrefab: {fileID: 6542016438705629966, guid: e6314ede12e53e64cb098f966f2bcbc4, type: 3}
   fireballDamage: 80
   fireballCooldown: 1
@@ -92123,7 +92124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -648, y: -56.71994}
+  m_AnchoredPosition: {x: -648, y: -56.71991}
   m_SizeDelta: {x: 0, y: 99.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372549024
@@ -99289,6 +99290,8 @@ MonoBehaviour:
   healthIcon: {fileID: 6934086728263231946, guid: 478f96352fed20a40b57d5796fcbc9a1, type: 3}
   speedIcon: {fileID: -3349645178535924709, guid: 478f96352fed20a40b57d5796fcbc9a1, type: 3}
   damageIcon: {fileID: 4743126897691936252, guid: 478f96352fed20a40b57d5796fcbc9a1, type: 3}
+  critChanceIcon: {fileID: 3473359137553555466, guid: f25ea6274dd01ea4a9198c1f3361e6bf, type: 3}
+  critDamageIcon: {fileID: -1335710505949493007, guid: f25ea6274dd01ea4a9198c1f3361e6bf, type: 3}
   dashBoostIcon: {fileID: -2878611675290672999, guid: 478f96352fed20a40b57d5796fcbc9a1, type: 3}
   dashTimeIcon: {fileID: 4037386846454389401, guid: 478f96352fed20a40b57d5796fcbc9a1, type: 3}
   dashCooldownIcon: {fileID: 4611804096804191474, guid: 478f96352fed20a40b57d5796fcbc9a1, type: 3}
@@ -99311,6 +99314,12 @@ MonoBehaviour:
   - upgradeName: Quick Dash
     description: Reduce Dash cooldown by 0.3 seconds.
     type: 5
+  - upgradeName: Critical Chance
+    description: Increase critical chance by 10%.
+    type: 6
+  - upgradeName: Critical Damage
+    description: Increase critical damage by 25%.
+    type: 7
 --- !u!4 &893718199
 Transform:
   m_ObjectHideFlags: 0
@@ -99798,6 +99807,7 @@ MonoBehaviour:
   skillCooldown: 1.8
   usbPrefabs: {fileID: 4577696817114358760, guid: c04b4f7355130f242b778f1bd6cedf94, type: 3}
   gameManager: {fileID: 1326204859}
+  animator: {fileID: 0}
   thunderBulletPrefab: {fileID: 2127498927265141649, guid: 10bc454cf57cb2f43b7e24b5bb292c49, type: 3}
   thunderFirePoint: {fileID: 1406842970}
   thunderBulletSpeed: 15
@@ -99983,7 +99993,7 @@ Transform:
   m_GameObject: {fileID: 993014045}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 7.94, z: 0}
+  m_LocalPosition: {x: 7.51, y: 8.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -101118,7 +101128,7 @@ MonoBehaviour:
   audioManager: {fileID: 1901665123}
   cam: {fileID: 1044476157}
   upgradeMenu: {fileID: 893718198}
-  enemiesPerStage: 7800000096000000b4000000e1000000e1000000
+  enemiesPerStage: 6400000096000000b4000000e1000000e1000000
   bosses:
   - {fileID: 1403365652130659004}
   - {fileID: 9164296544027794875}
@@ -103210,7 +103220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -56.71994}
+  m_AnchoredPosition: {x: 0, y: -56.71991}
   m_SizeDelta: {x: 0, y: 99.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768530364
@@ -104809,6 +104819,8 @@ MonoBehaviour:
   currentHealth: 100
   moveSpeed: 5
   damageMultiplier: 1
+  critChance: 0.25
+  critDamageMultiplier: 1.5
   dashBoost: 10
   dashTime: 0.2
   dashCooldown: 2
@@ -105204,6 +105216,7 @@ MonoBehaviour:
   skillCooldown: 2.2
   usbPrefabs: {fileID: 4577696817114358760, guid: c04b4f7355130f242b778f1bd6cedf94, type: 3}
   gameManager: {fileID: 1326204859}
+  animator: {fileID: 0}
   venomBulletPrefab: {fileID: 1159764226149666626, guid: 271bc3260652961479465e3befbad069, type: 3}
   venomFirePoint: {fileID: 1513748040}
   venomBulletSpeed: 15
@@ -105387,7 +105400,7 @@ Transform:
   m_GameObject: {fileID: 1920816268}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.59, y: 8.09, z: 0}
+  m_LocalPosition: {x: -8.85, y: 8.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -105889,7 +105902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 648, y: -56.71994}
+  m_AnchoredPosition: {x: 648, y: -56.71991}
   m_SizeDelta: {x: 0, y: 99.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2054858493
@@ -106877,6 +106890,7 @@ MonoBehaviour:
   skillCooldown: 1.6
   usbPrefabs: {fileID: 4577696817114358760, guid: c04b4f7355130f242b778f1bd6cedf94, type: 3}
   gameManager: {fileID: 1326204859}
+  animator: {fileID: 0}
 --- !u!1 &6937223126283922693
 GameObject:
   m_ObjectHideFlags: 0
@@ -107210,6 +107224,7 @@ MonoBehaviour:
   skillCooldown: 3
   usbPrefabs: {fileID: 4577696817114358760, guid: c04b4f7355130f242b778f1bd6cedf94, type: 3}
   gameManager: {fileID: 1326204859}
+  animator: {fileID: 0}
   laserPrefab: {fileID: 3534376603944419436, guid: 82a2ff2bb27d47049b413caa7ccaaad1, type: 3}
   laserChargeTime: 0.75
   laserDuration: 1

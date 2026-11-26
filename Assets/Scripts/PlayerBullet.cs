@@ -26,12 +26,17 @@ public class PlayerBullet : MonoBehaviour
     {
         PlayerStats stats = FindAnyObjectByType<PlayerStats>();
 
-        float multiplier = stats != null
+        float damageMultiplier = stats != null
             ? stats.damageMultiplier
             : 1f;
 
-        finalDamage = damage * multiplier;
+        finalDamage = damage * damageMultiplier;
 
+        if (stats != null &&
+            Random.value < stats.critChance)
+        {
+            finalDamage *= stats.critDamageMultiplier;
+        }
         Destroy(gameObject, timeDestroy);
     }
 

@@ -14,7 +14,9 @@ public class UpgradeMenu : MonoBehaviour
         Damage,
         DashBoost,
         DashTime,
-        DashCooldown
+        DashCooldown,
+        CritChance,
+        CritDamage
     }
 
     [Serializable]
@@ -41,11 +43,15 @@ public class UpgradeMenu : MonoBehaviour
     [SerializeField] private Sprite healthIcon;
     [SerializeField] private Sprite speedIcon;
     [SerializeField] private Sprite damageIcon;
+    [SerializeField] private Sprite critChanceIcon;
+    [SerializeField] private Sprite critDamageIcon;
     [SerializeField] private Sprite dashBoostIcon;
     [SerializeField] private Sprite dashTimeIcon;
     [SerializeField] private Sprite dashCooldownIcon;
 
     private UpgradeType[] currentOptions = new UpgradeType[3];
+    private Button rollButton;
+    private bool canRoll;
 
     public Action OnUpgradeSelected;
 
@@ -70,6 +76,20 @@ public class UpgradeMenu : MonoBehaviour
             upgradeName = "Damage Boost",
             description = "Increase weapon damage by 20%.",
             type = UpgradeType.Damage
+        },
+
+        new UpgradeOption
+        {
+            upgradeName = "Critical Chance",
+            description = "Increase critical chance by 10%.",
+            type = UpgradeType.CritChance
+        },
+
+        new UpgradeOption
+        {
+            upgradeName = "Critical Damage",
+            description = "Increase critical damage by 25%.",
+            type = UpgradeType.CritDamage
         },
 
         new UpgradeOption
@@ -105,6 +125,11 @@ public class UpgradeMenu : MonoBehaviour
         {
             playerStats = FindAnyObjectByType<PlayerStats>();
         }
+
+        if (upgradePanel != null)
+        {
+            CreateRollButton();
+        }
     }
 
     public void ShowUpgradeMenu()
@@ -116,11 +141,33 @@ public class UpgradeMenu : MonoBehaviour
         }
 
         upgradePanel.SetActive(true);
+        canRoll = true;
+        rollButton.interactable = true;
+        PopulateUpgradeOptions(false);
 
-        List<UpgradeOption> available =
-            new List<UpgradeOption>(allUpgrades);
+        Time.timeScale = 0f;
+    }
 
-        // Chọn ngẫu nhiên 3 nâng cấp khác nhau
+    public void RollUpgradeOptions()
+    {
+        if (!canRoll || upgradePanel == null || !upgradePanel.activeInHierarchy)
+            return;
+
+        PopulateUpgradeOptions(true);
+        canRoll = false;
+        rollButton.interactable = false;
+    }
+
+    private void PopulateUpgradeOptions(bool excludeCurrentOptions)
+    {
+        List<UpgradeOption> available = new List<UpgradeOption>(allUpgrades);
+
+        if (excludeCurrentOptions)
+        {
+            available.RemoveAll(option =>
+                Array.IndexOf(currentOptions, option.type) >= 0);
+        }
+
         for (int i = 0; i < 3; i++)
         {
             int randomIndex = UnityEngine.Random.Range(
@@ -143,8 +190,50 @@ public class UpgradeMenu : MonoBehaviour
                 upgradeIcons[i].sprite = GetUpgradeIcon(option.type);
             }
         }
+    }
 
-        Time.timeScale = 0f;
+    private void CreateRollButton()
+    {
+        GameObject buttonObject = new GameObject(
+            "RollButton",
+            typeof(RectTransform),
+            typeof(CanvasRenderer),
+            typeof(Image),
+            typeof(Button)
+        );
+        buttonObject.transform.SetParent(upgradePanel.transform, false);
+
+        RectTransform buttonRect = buttonObject.GetComponent<RectTransform>();
+        buttonRect.anchorMin = new Vector2(0.5f, 0f);
+        buttonRect.anchorMax = new Vector2(0.5f, 0f);
+        buttonRect.pivot = new Vector2(0.5f, 0f);
+        buttonRect.anchoredPosition = new Vector2(0f, 24f);
+        buttonRect.sizeDelta = new Vector2(180f, 48f);
+
+        Image buttonImage = buttonObject.GetComponent<Image>();
+        buttonImage.color = new Color(0.23f, 0.81f, 0.56f, 1f);
+
+        rollButton = buttonObject.GetComponent<Button>();
+        rollButton.onClick.AddListener(RollUpgradeOptions);
+
+        GameObject labelObject = new GameObject(
+            "Label",
+            typeof(RectTransform),
+            typeof(TextMeshProUGUI)
+        );
+        labelObject.transform.SetParent(buttonObject.transform, false);
+
+        RectTransform labelRect = labelObject.GetComponent<RectTransform>();
+        labelRect.anchorMin = Vector2.zero;
+        labelRect.anchorMax = Vector2.one;
+        labelRect.offsetMin = Vector2.zero;
+        labelRect.offsetMax = Vector2.zero;
+
+        TextMeshProUGUI label = labelObject.GetComponent<TextMeshProUGUI>();
+        label.text = "Roll";
+        label.alignment = TextAlignmentOptions.Center;
+        label.fontSize = 24f;
+        label.raycastTarget = false;
     }
 
     public void SelectUpgrade(int index)
@@ -167,6 +256,14 @@ public class UpgradeMenu : MonoBehaviour
 
             case UpgradeType.Damage:
                 playerStats.UpgradeDamage();
+                break;
+
+            case UpgradeType.CritChance:
+                playerStats.UpgradeCritChance();
+                break;
+
+            case UpgradeType.CritDamage:
+                playerStats.UpgradeCritDamage();
                 break;
 
             case UpgradeType.DashBoost:
@@ -201,6 +298,12 @@ public class UpgradeMenu : MonoBehaviour
 
             case UpgradeType.Damage:
                 return damageIcon;
+
+            case UpgradeType.CritChance:
+                return critChanceIcon;
+
+            case UpgradeType.CritDamage:
+                return critDamageIcon;
 
             case UpgradeType.DashBoost:
                 return dashBoostIcon;

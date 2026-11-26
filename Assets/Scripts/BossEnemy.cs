@@ -11,8 +11,24 @@ public class BossEnemy : Enemy
     [SerializeField] protected  float skillCooldown = 2f;
     [SerializeField] private GameObject usbPrefabs;
     [SerializeField] private GameManager gameManager;
+    
     protected bool isDead = false;
     protected float nextSkillTime = 0f;
+    [Header("Boss Animation")]
+    [SerializeField] protected Animator animator;
+
+    protected virtual void Awake()
+    {
+        if (animator == null)
+            animator = GetComponentInChildren<Animator>();
+    }
+
+    protected void PlaySkillAnimation()
+    {
+        if (animator == null) return;
+
+        animator.SetTrigger("Skill");
+    }
     protected override void Update()
     {
         base.Update();
@@ -27,7 +43,10 @@ public class BossEnemy : Enemy
 
         isDead = true;
         gameManager.BossDefeated();
-        Instantiate(usbPrefabs,transform.position,Quaternion.identity);
+        if (gameManager != null && gameManager.HasMoreBosses())
+        {
+            Instantiate(usbPrefabs, transform.position, Quaternion.identity);
+        }
         base.Die();
     }
     private void OnTriggerEnter2D(Collider2D collision)

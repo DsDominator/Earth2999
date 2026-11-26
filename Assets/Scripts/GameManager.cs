@@ -386,6 +386,11 @@ public class GameManager : MonoBehaviour
         StartEnemyStage();
     }
 
+    public bool HasMoreBosses()
+    {
+        return currentBossIndex + 1 < bosses.Length;
+    }
+
     // =========================
     // CLEANUP
     // =========================

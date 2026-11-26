@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: c932586875039644ebbc506d3e72037e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3086276051151588378
+    second: FireBossSkill_0
+  - first:
+      213: 8748879887564941734
+    second: FireBossSkill_1
+  - first:
+      213: -4514075245866411331
+    second: FireBossSkill_2
+  - first:
+      213: -5420147216396196091
+    second: FireBossSkill_3
+  - first:
+      213: -1088208764486122783
+    second: FireBossSkill_4
+  - first:
+      213: 6847767371979384133
+    second: FireBossSkill_5
+  - first:
+      213: -692199032282001083
+    second: FireBossSkill_6
+  - first:
+      213: -6703955988206666823
+    second: FireBossSkill_7
+  - first:
+      213: 7126233495154860505
+    second: FireBossSkill_8
+  - first:
+      213: -24094833272250291
+    second: FireBossSkill_9
+  - first:
+      213: 6639807459063181129
+    second: FireBossSkill_10
+  - first:
+      213: -4657422384490376590
+    second: FireBossSkill_11
+  - first:
+      213: 4549876324678536561
+    second: FireBossSkill_12
+  - first:
+      213: -6303284923039584633
+    second: FireBossSkill_13
+  - first:
+      213: -4527245562899832042
+    second: FireBossSkill_14
+  - first:
+      213: -1538511783936601564
+    second: FireBossSkill_15
+  - first:
+      213: -1704466713180086598
+    second: FireBossSkill_16
+  - first:
+      213: -8954150154961345185
+    second: FireBossSkill_17
+  - first:
+      213: 7118458188158761168
+    second: FireBossSkill_18
+  - first:
+      213: 5647457510948615290
+    second: FireBossSkill_19
+  - first:
+      213: -4515971077990020413
+    second: FireBossSkill_20
+  - first:
+      213: -4243239958261647824
+    second: FireBossSkill_21
+  - first:
+      213: 2430950283222280012
+    second: FireBossSkill_22
+  - first:
+      213: 6460007864490614491
+    second: FireBossSkill_23
+  - first:
+      213: 6229949639486593916
+    second: FireBossSkill_24
+  - first:
+      213: 335391953280932592
+    second: FireBossSkill_25
+  - first:
+      213: -8389577484719521471
+    second: FireBossSkill_26
+  - first:
+      213: 8418933265371658398
+    second: FireBossSkill_27
+  - first:
+      213: 1474875232127078747
+    second: FireBossSkill_28
+  - first:
+      213: 3848376575598192173
+    second: FireBossSkill_29
+  - first:
+      213: 1264219578465674377
+    second: FireBossSkill_30
+  - first:
+      213: 8089750517128036124
+    second: FireBossSkill_31
+  - first:
+      213: -6488658931562670764
+    second: FireBossSkill_32
+  - first:
+      213: 8755931268434758836
+    second: FireBossSkill_33
+  - first:
+      213: 6471285364019601739
+    second: FireBossSkill_34
+  - first:
+      213: 476487504647299239
+    second: FireBossSkill_35
+  - first:
+      213: 4599357252261228819
+    second: FireBossSkill_36
+  - first:
+      213: 3746605977287389162
+    second: FireBossSkill_37
+  - first:
+      213: -2588370969883091564
+    second: FireBossSkill_38
+  - first:
+      213: 3480059420877846642
+    second: FireBossSkill_39
+  - first:
+      213: -8786505106672569094
+    second: FireBossSkill_40
+  - first:
+      213: -4595771017719133258
+    second: FireBossSkill_41
+  - first:
+      213: -4700910076120735869
+    second: FireBossSkill_42
+  - first:
+      213: -3698994343303244154
+    second: FireBossSkill_43
+  - first:
+      213: 2306026857533838349
+    second: FireBossSkill_44
+  - first:
+      213: 2096549958351647595
+    second: FireBossSkill_45
+  - first:
+      213: 8193780323780826470
+    second: FireBossSkill_46
+  - first:
+      213: -8264803632361545350
+    second: FireBossSkill_47
+  - first:
+      213: -6778611895545813826
+    second: FireBossSkill_48
+  - first:
+      213: 1269757602174079252
+    second: FireBossSkill_49
+  - first:
+      213: 5766074769420270072
+    second: FireBossSkill_50
+  - first:
+      213: -6864489692609582700
+    second: FireBossSkill_51
+  - first:
+      213: -7946001810709318078
+    second: FireBossSkill_52
+  - first:
+      213: 2512696520261447969
+    second: FireBossSkill_53
+  - first:
+      213: 7696676543780205113
+    second: FireBossSkill_54
+  - first:
+      213: 1797173775492963959
+    second: FireBossSkill_55
+  - first:
+      213: -6252873975125872378
+    second: FireBossSkill_56
+  - first:
+      213: -4314375016557878910
+    second: FireBossSkill_57
+  - first:
+      213: 5701851542187646432
+    second: FireBossSkill_58
+  - first:
+      213: -1365907446882237284
+    second: FireBossSkill_59
+  - first:
+      213: 1749396257597708076
+    second: FireBossSkill_60
+  - first:
+      213: 7972917262178679831
+    second: FireBossSkill_61
+  - first:
+      213: 7771397722332605290
+    second: FireBossSkill_62
+  - first:
+      213: -3640128360951413777
+    second: FireBossSkill_63
+  - first:
+      213: 4440741693292562441
+    second: FireBossSkill_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireBossSkill_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c8fab77b7a4da20800000000000000
+      internalID: 3086276051151588378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBossSkill_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a92ed877e34a6970800000000000000
+      internalID: 8748879887564941734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBossSkill_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba9fb00b78ca51c0800000000000000
+      internalID: -4514075245866411331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBossSkill_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507e168e2d4c7c4b0800000000000000
+      internalID: -5420147216396196091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBossSkill_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2865fe4e7e5e0f0800000000000000
+      internalID: -1088208764486122783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBossSkill_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545675fc428280f50800000000000000
+      internalID: 6847767371979384133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBossSkill_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54156f6c5a0d466f0800000000000000
+      internalID: -692199032282001083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireBossSkill_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbb61d3c83c6f2a0800000000000000
+      internalID: -6703955988206666823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 00c815415c197bd46ac38cf81077363b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FireBossSkill_0: 3086276051151588378
+      FireBossSkill_1: 8748879887564941734
+      FireBossSkill_2: -4514075245866411331
+      FireBossSkill_3: -5420147216396196091
+      FireBossSkill_4: -1088208764486122783
+      FireBossSkill_5: 6847767371979384133
+      FireBossSkill_6: -692199032282001083
+      FireBossSkill_7: -6703955988206666823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

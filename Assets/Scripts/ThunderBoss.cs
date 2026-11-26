@@ -100,18 +100,22 @@ public class ThunderBoss : BossEnemy
         switch (randomSkill)
         {
             case 0:
+                PlaySkillAnimation();
                 StartCoroutine(ThunderShot());
                 break;
 
             case 1:
+                PlaySkillAnimation();
                 StartCoroutine(ChainLightning());
                 break;
 
             case 2:
+                PlaySkillAnimation();
                 StartCoroutine(LightningStrike());
                 break;
 
             case 3:
+                PlaySkillAnimation();
                 StartCoroutine(ElectricField());
                 break;
         }

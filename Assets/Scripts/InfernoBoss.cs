@@ -126,23 +126,28 @@ public class InfernoBoss : BossEnemy
         switch (skill)
         {
             case 0:
+                PlaySkillAnimation();
                 Fireball();
                 break;
 
             case 1:
+                PlaySkillAnimation();
                 base.Teleport();
                 FlameBurst();
                 break;
 
             case 2:
+                PlaySkillAnimation();
                 LavaGround();
                 break;
 
-            case 3:
+            case 3:     
+                PlaySkillAnimation();
                 MeteorRain();
                 break;
 
             case 4:
+                PlaySkillAnimation();
                 FlameTrail();
                 break;
         }

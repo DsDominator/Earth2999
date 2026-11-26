@@ -13,6 +13,11 @@ public class PlayerStats : MonoBehaviour
     [Header("Damage")]
     public float damageMultiplier = 1f;
 
+    [Header("Critical")]
+    [Range(0f, 1f)]
+    public float critChance = 0.25f;
+    public float critDamageMultiplier = 1.5f;
+
     [Header("Dash")]
     public float dashBoost = 5f;
     public float dashTime = 0.3f;
@@ -35,6 +40,18 @@ public class PlayerStats : MonoBehaviour
     public void UpgradeDamage()
     {
         damageMultiplier *= 1.2f;
+    }
+
+    // Upgrade Critical Chance
+    public void UpgradeCritChance()
+    {
+        critChance = Mathf.Min(1f, critChance + 0.1f);
+    }
+
+    // Upgrade Critical Damage
+    public void UpgradeCritDamage()
+    {
+        critDamageMultiplier += 0.25f;
     }
 
     // Upgrade Dash Speed

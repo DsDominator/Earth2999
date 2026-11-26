@@ -90,21 +90,26 @@ public class VenomBoss : BossEnemy
         switch (randomSkill)
         {
             case 0:
+                PlaySkillAnimation();
                 StartCoroutine(VenomShot());
                 break;
 
             case 1:
+                PlaySkillAnimation();
                 StartCoroutine(PoisonExplosion());
                 break;
 
             case 2:
+                PlaySkillAnimation();
                 StartCoroutine(ToxicField());
                 break;
 
             case 3:
+                PlaySkillAnimation();
                 SummonPoisonMinions();
                 break;
-            case 4:
+            case 4:     
+                PlaySkillAnimation();
                 base.Teleport();
                 break;
         }
