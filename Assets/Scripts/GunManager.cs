@@ -199,6 +199,7 @@ public class GunManager : MonoBehaviour
 
         currentSlot = slot;
         weapons[currentSlot].gameObject.SetActive(true);
+        weapons[currentSlot].RefreshAmmoText();
     }
 
     // =========================

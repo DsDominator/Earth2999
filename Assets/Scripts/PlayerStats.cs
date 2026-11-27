@@ -39,19 +39,19 @@ public class PlayerStats : MonoBehaviour
     // Upgrade Damage
     public void UpgradeDamage()
     {
-        damageMultiplier *= 1.2f;
+        damageMultiplier *= 1.15f;
     }
 
     // Upgrade Critical Chance
     public void UpgradeCritChance()
     {
-        critChance = Mathf.Min(1f, critChance + 0.1f);
+        critChance = Mathf.Min(1f, critChance + 0.15f);
     }
 
     // Upgrade Critical Damage
     public void UpgradeCritDamage()
     {
-        critDamageMultiplier += 0.25f;
+        critDamageMultiplier *= 1.25f;
     }
 
     // Upgrade Dash Speed

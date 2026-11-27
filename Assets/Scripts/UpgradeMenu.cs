@@ -39,6 +39,12 @@ public class UpgradeMenu : MonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerStats playerStats;
 
+    [Header("Player Stats View")]
+    [SerializeField] private Button statsButton;
+    [SerializeField] private GameObject statsView;
+    [SerializeField] private TMP_Text playerStatsDisplay;
+    [SerializeField] private Button backButton;
+
     [Header("Upgrade Icons")]
     [SerializeField] private Sprite healthIcon;
     [SerializeField] private Sprite speedIcon;
@@ -74,14 +80,14 @@ public class UpgradeMenu : MonoBehaviour
         new UpgradeOption
         {
             upgradeName = "Damage Boost",
-            description = "Increase weapon damage by 20%.",
+            description = "Increase weapon damage by 15%.",
             type = UpgradeType.Damage
         },
 
         new UpgradeOption
         {
             upgradeName = "Critical Chance",
-            description = "Increase critical chance by 10%.",
+            description = "Increase critical chance by 15%.",
             type = UpgradeType.CritChance
         },
 
@@ -130,6 +136,15 @@ public class UpgradeMenu : MonoBehaviour
         {
             CreateRollButton();
         }
+
+        if (statsButton != null)
+            statsButton.onClick.AddListener(ShowStatsView);
+
+        if (backButton != null)
+            backButton.onClick.AddListener(HideStatsView);
+
+        if (statsView != null)
+            statsView.SetActive(false);
     }
 
     public void ShowUpgradeMenu()
@@ -141,8 +156,10 @@ public class UpgradeMenu : MonoBehaviour
         }
 
         upgradePanel.SetActive(true);
+        HideStatsView();
         canRoll = true;
         rollButton.interactable = true;
+        RefreshPlayerStatsDisplay();
         PopulateUpgradeOptions(false);
 
         Time.timeScale = 0f;
@@ -234,6 +251,44 @@ public class UpgradeMenu : MonoBehaviour
         label.alignment = TextAlignmentOptions.Center;
         label.fontSize = 24f;
         label.raycastTarget = false;
+    }
+
+    private void ShowStatsView()
+    {
+        if (statsView == null)
+            return;
+
+        RefreshPlayerStatsDisplay();
+        statsView.SetActive(true);
+
+        if (rollButton != null)
+            rollButton.gameObject.SetActive(false);
+    }
+
+    private void HideStatsView()
+    {
+        if (statsView != null)
+            statsView.SetActive(false);
+
+        if (rollButton != null)
+            rollButton.gameObject.SetActive(true);
+    }
+
+    private void RefreshPlayerStatsDisplay()
+    {
+        if (playerStatsDisplay == null || playerStats == null)
+            return;
+
+        playerStatsDisplay.text =
+            "PLAYER STATS\n" +
+            $"HP: {playerStats.currentHealth:0}/{playerStats.maxHealth:0}\n" +
+            $"Move speed: {playerStats.moveSpeed:0.0}\n" +
+            $"Damage: x{playerStats.damageMultiplier:0.00}\n" +
+            $"Critical chance: {playerStats.critChance:P0}\n" +
+            $"Critical damage: x{playerStats.critDamageMultiplier:0.00}\n" +
+            $"Dash power: {playerStats.dashBoost:0.0}\n" +
+            $"Dash duration: {playerStats.dashTime:0.00}s\n" +
+            $"Dash cooldown: {playerStats.dashCooldown:0.00}s";
     }
 
     public void SelectUpgrade(int index)

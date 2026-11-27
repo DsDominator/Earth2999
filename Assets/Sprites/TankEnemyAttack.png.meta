@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 69cefd909cd04904d972115db54fc33e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3580147236525123598
+    second: TankEnemyAttack_0
+  - first:
+      213: -523140160080596387
+    second: TankEnemyAttack_1
+  - first:
+      213: -8012632164203726811
+    second: TankEnemyAttack_2
+  - first:
+      213: 7149060870309206467
+    second: TankEnemyAttack_3
+  - first:
+      213: -5450879234157483551
+    second: TankEnemyAttack_4
+  - first:
+      213: -6521139454878761907
+    second: TankEnemyAttack_5
+  - first:
+      213: -9132792563009754131
+    second: TankEnemyAttack_6
+  - first:
+      213: 6185435154831380798
+    second: TankEnemyAttack_7
+  - first:
+      213: -136099380795121048
+    second: TankEnemyAttack_8
+  - first:
+      213: -856540071440863976
+    second: TankEnemyAttack_9
+  - first:
+      213: 4133308736200403879
+    second: TankEnemyAttack_10
+  - first:
+      213: 159957445455794674
+    second: TankEnemyAttack_11
+  - first:
+      213: 2912977761655707874
+    second: TankEnemyAttack_12
+  - first:
+      213: -5363104573561589608
+    second: TankEnemyAttack_13
+  - first:
+      213: -6327258481028243553
+    second: TankEnemyAttack_14
+  - first:
+      213: 8815305823772661907
+    second: TankEnemyAttack_15
+  - first:
+      213: 4103468184388240264
+    second: TankEnemyAttack_16
+  - first:
+      213: -555671048319534273
+    second: TankEnemyAttack_17
+  - first:
+      213: -7851055596676039482
+    second: TankEnemyAttack_18
+  - first:
+      213: 8276239211191487138
+    second: TankEnemyAttack_19
+  - first:
+      213: 6969279678184691059
+    second: TankEnemyAttack_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TankEnemyAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7d25b8e03c05ec0800000000000000
+      internalID: -3580147236525123598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52b7aecbce6db8f0800000000000000
+      internalID: -523140160080596387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52874c8df796dc090800000000000000
+      internalID: -8012632164203726811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_3
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9dc64fbf0963360800000000000000
+      internalID: 7149060870309206467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_4
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e96d7e67369a54b0800000000000000
+      internalID: -5450879234157483551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cba2d57324085a0800000000000000
+      internalID: -6521139454878761907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_6
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 0
+        width: 243
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb69723d8dc14180800000000000000
+      internalID: -9132792563009754131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 0
+        width: 205
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3110f0608417d550800000000000000
+      internalID: 6185435154831380798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8626e81955a7c1ef0800000000000000
+      internalID: -136099380795121048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemyAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d21e9d755fc14f0800000000000000
+      internalID: -856540071440863976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f6b491bc72b6727479ac03bcf8d364e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TankEnemyAttack_0: -3580147236525123598
+      TankEnemyAttack_1: -523140160080596387
+      TankEnemyAttack_2: -8012632164203726811
+      TankEnemyAttack_3: 7149060870309206467
+      TankEnemyAttack_4: -5450879234157483551
+      TankEnemyAttack_5: -6521139454878761907
+      TankEnemyAttack_6: -9132792563009754131
+      TankEnemyAttack_7: 6185435154831380798
+      TankEnemyAttack_8: -136099380795121048
+      TankEnemyAttack_9: -856540071440863976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

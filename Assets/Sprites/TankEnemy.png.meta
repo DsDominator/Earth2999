@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: e4af6aa28216bbf468db7bfdb63b897e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 65835131949856381
+    second: TankEnemy_0
+  - first:
+      213: 4148925770760364278
+    second: TankEnemy_1
+  - first:
+      213: -5533726537984907618
+    second: TankEnemy_2
+  - first:
+      213: -3854241291930975592
+    second: TankEnemy_3
+  - first:
+      213: 295768419757930145
+    second: TankEnemy_4
+  - first:
+      213: -8055837375018914985
+    second: TankEnemy_5
+  - first:
+      213: 3081928087574073446
+    second: TankEnemy_6
+  - first:
+      213: -3990933777180717734
+    second: TankEnemy_7
+  - first:
+      213: -7884118333734359830
+    second: TankEnemy_8
+  - first:
+      213: 8667394725534679143
+    second: TankEnemy_9
+  - first:
+      213: 3487249820857037241
+    second: TankEnemy_10
+  - first:
+      213: -6484166611230022168
+    second: TankEnemy_11
+  - first:
+      213: -2538207408484226144
+    second: TankEnemy_12
+  - first:
+      213: -6209323843585823445
+    second: TankEnemy_13
+  - first:
+      213: -7086787009886433064
+    second: TankEnemy_14
+  - first:
+      213: -1318480155859331442
+    second: TankEnemy_15
+  - first:
+      213: 2743176921566484197
+    second: TankEnemy_16
+  - first:
+      213: -4345510209738880906
+    second: TankEnemy_17
+  - first:
+      213: 2990235028931445
+    second: TankEnemy_18
+  - first:
+      213: 2987514073892573117
+    second: TankEnemy_19
+  - first:
+      213: -5124598518099966732
+    second: TankEnemy_20
+  - first:
+      213: -7454059533987239949
+    second: TankEnemy_21
+  - first:
+      213: 7776997316344375153
+    second: TankEnemy_22
+  - first:
+      213: 1950256429100327688
+    second: TankEnemy_23
+  - first:
+      213: 7619685270921883764
+    second: TankEnemy_24
+  - first:
+      213: 1589427532344195983
+    second: TankEnemy_25
+  - first:
+      213: 2355728152867133158
+    second: TankEnemy_26
+  - first:
+      213: 7601639291749093145
+    second: TankEnemy_27
+  - first:
+      213: -7789970250553100389
+    second: TankEnemy_28
+  - first:
+      213: -7545944842175991470
+    second: TankEnemy_29
+  - first:
+      213: 8873661374257684690
+    second: TankEnemy_30
+  - first:
+      213: 2848395576911241872
+    second: TankEnemy_31
+  - first:
+      213: 2124571784654850778
+    second: TankEnemy_32
+  - first:
+      213: 8253499840919334058
+    second: TankEnemy_33
+  - first:
+      213: 6053177962402791244
+    second: TankEnemy_34
+  - first:
+      213: 7444986043691353948
+    second: TankEnemy_35
+  - first:
+      213: -8563606693529963450
+    second: TankEnemy_36
+  - first:
+      213: 4051894058076782328
+    second: TankEnemy_37
+  - first:
+      213: -9152190348946155323
+    second: TankEnemy_38
+  - first:
+      213: 3339193208885459394
+    second: TankEnemy_39
+  - first:
+      213: -1513959158777686737
+    second: TankEnemy_40
+  - first:
+      213: 7663967088731883173
+    second: TankEnemy_41
+  - first:
+      213: -5700171808376845982
+    second: TankEnemy_42
+  - first:
+      213: -6400977395763922741
+    second: TankEnemy_43
+  - first:
+      213: -2699128915479243045
+    second: TankEnemy_44
+  - first:
+      213: 5642154242417135796
+    second: TankEnemy_45
+  - first:
+      213: -8543982630072796577
+    second: TankEnemy_46
+  - first:
+      213: 3086768165802792519
+    second: TankEnemy_47
+  - first:
+      213: 484915102562110471
+    second: TankEnemy_48
+  - first:
+      213: -3480699293276612506
+    second: TankEnemy_49
+  - first:
+      213: 347452478393746625
+    second: TankEnemy_50
+  - first:
+      213: -7788980475427272563
+    second: TankEnemy_51
+  - first:
+      213: -3263041839555515685
+    second: TankEnemy_52
+  - first:
+      213: -6837156287307074120
+    second: TankEnemy_53
+  - first:
+      213: -775259136567310400
+    second: TankEnemy_54
+  - first:
+      213: 169298472854459047
+    second: TankEnemy_55
+  - first:
+      213: 6967036615835517348
+    second: TankEnemy_56
+  - first:
+      213: 3931382922154650979
+    second: TankEnemy_57
+  - first:
+      213: 5354037116528620572
+    second: TankEnemy_58
+  - first:
+      213: -4651705844662956804
+    second: TankEnemy_59
+  - first:
+      213: -1489468944349814713
+    second: TankEnemy_60
+  - first:
+      213: -4843400831597725002
+    second: TankEnemy_61
+  - first:
+      213: 104845270696327219
+    second: TankEnemy_62
+  - first:
+      213: 6611255686677175997
+    second: TankEnemy_63
+  - first:
+      213: 8099112448223451500
+    second: TankEnemy_64
+  - first:
+      213: -8113690052615167305
+    second: TankEnemy_65
+  - first:
+      213: -920415099137261173
+    second: TankEnemy_66
+  - first:
+      213: 4521396021598213588
+    second: TankEnemy_67
+  - first:
+      213: 2787305049340587275
+    second: TankEnemy_68
+  - first:
+      213: -4042827987021354278
+    second: TankEnemy_69
+  - first:
+      213: -581610479270396420
+    second: TankEnemy_70
+  - first:
+      213: -601747292534033059
+    second: TankEnemy_71
+  - first:
+      213: -7266414786938849609
+    second: TankEnemy_72
+  - first:
+      213: -4038526356337102458
+    second: TankEnemy_73
+  - first:
+      213: -8032673685792889378
+    second: TankEnemy_74
+  - first:
+      213: 6888646566821109619
+    second: TankEnemy_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TankEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76bc9524b4e9e000800000000000000
+      internalID: 65835131949856381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0a2ada102f39930800000000000000
+      internalID: 4148925770760364278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96e14b58014433b0800000000000000
+      internalID: -5533726537984907618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892cfc337fbf28ac0800000000000000
+      internalID: -3854241291930975592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6337b8fc7ca1400800000000000000
+      internalID: 295768419757930145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75baeadc69ae33090800000000000000
+      internalID: -8055837375018914985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660d623544535ca20800000000000000
+      internalID: 3081928087574073446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TankEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d0901efda5d98c0800000000000000
+      internalID: -3990933777180717734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1a8db972827cc414ab2df9e3bf61f9af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TankEnemy_0: 65835131949856381
+      TankEnemy_1: 4148925770760364278
+      TankEnemy_2: -5533726537984907618
+      TankEnemy_3: -3854241291930975592
+      TankEnemy_4: 295768419757930145
+      TankEnemy_5: -8055837375018914985
+      TankEnemy_6: 3081928087574073446
+      TankEnemy_7: -3990933777180717734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

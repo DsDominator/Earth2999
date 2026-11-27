@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 55c880ea52fa6d144ad4b89f683f3ec0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5992144266122209705
+    second: RangedBullet_0
+  - first:
+      213: 6841667417662511401
+    second: RangedBullet_1
+  - first:
+      213: -8054573320265589673
+    second: RangedBullet_2
+  - first:
+      213: 7510606958297869298
+    second: RangedBullet_3
+  - first:
+      213: 328294443606386412
+    second: RangedBullet_4
+  - first:
+      213: 6043691141165002146
+    second: RangedBullet_5
+  - first:
+      213: -5416156926079001657
+    second: RangedBullet_6
+  - first:
+      213: -5553901643108699424
+    second: RangedBullet_7
+  - first:
+      213: 2660561499996863896
+    second: RangedBullet_8
+  - first:
+      213: -6923404994611584255
+    second: RangedBullet_9
+  - first:
+      213: -2724639350982758675
+    second: RangedBullet_10
+  - first:
+      213: 8850139158619266657
+    second: RangedBullet_11
+  - first:
+      213: 4191981861940921739
+    second: RangedBullet_12
+  - first:
+      213: -1972067922899505284
+    second: RangedBullet_13
+  - first:
+      213: 6832833438963634015
+    second: RangedBullet_14
+  - first:
+      213: 3882058032024900750
+    second: RangedBullet_15
+  - first:
+      213: 8810758590949584092
+    second: RangedBullet_16
+  - first:
+      213: 4866872326473238627
+    second: RangedBullet_17
+  - first:
+      213: 8869883278999157435
+    second: RangedBullet_18
+  - first:
+      213: -3896847759318222804
+    second: RangedBullet_19
+  - first:
+      213: 3189822221332463690
+    second: RangedBullet_20
+  - first:
+      213: 812634541162502117
+    second: RangedBullet_21
+  - first:
+      213: 1487783273019969437
+    second: RangedBullet_22
+  - first:
+      213: 6299410778476531917
+    second: RangedBullet_23
+  - first:
+      213: 8939349147118793166
+    second: RangedBullet_24
+  - first:
+      213: -3218091323646490759
+    second: RangedBullet_25
+  - first:
+      213: -4522487254341835326
+    second: RangedBullet_26
+  - first:
+      213: -5207791833933370074
+    second: RangedBullet_27
+  - first:
+      213: -7176414105690576395
+    second: RangedBullet_28
+  - first:
+      213: 1493798282944551152
+    second: RangedBullet_29
+  - first:
+      213: -5567353516305135588
+    second: RangedBullet_30
+  - first:
+      213: -2407839675940505450
+    second: RangedBullet_31
+  - first:
+      213: 409659998099323482
+    second: RangedBullet_32
+  - first:
+      213: -2888759930236322395
+    second: RangedBullet_33
+  - first:
+      213: 8969482667719161731
+    second: RangedBullet_34
+  - first:
+      213: -2805226448095468329
+    second: RangedBullet_35
+  - first:
+      213: 5616189169052269096
+    second: RangedBullet_36
+  - first:
+      213: 5030937712535959480
+    second: RangedBullet_37
+  - first:
+      213: 2593713315382764630
+    second: RangedBullet_38
+  - first:
+      213: -9039322879388956983
+    second: RangedBullet_39
+  - first:
+      213: 5357285156123687290
+    second: RangedBullet_40
+  - first:
+      213: -4827060087793365306
+    second: RangedBullet_41
+  - first:
+      213: -1290177894537594106
+    second: RangedBullet_42
+  - first:
+      213: -5294761220802886276
+    second: RangedBullet_43
+  - first:
+      213: 5414554932845329779
+    second: RangedBullet_44
+  - first:
+      213: 7896305849362919399
+    second: RangedBullet_45
+  - first:
+      213: 2888292677664116017
+    second: RangedBullet_46
+  - first:
+      213: -600415039446931990
+    second: RangedBullet_47
+  - first:
+      213: 3759556533627554648
+    second: RangedBullet_48
+  - first:
+      213: -1280994894259721566
+    second: RangedBullet_49
+  - first:
+      213: 10241391435421634
+    second: RangedBullet_50
+  - first:
+      213: -3536967008738531870
+    second: RangedBullet_51
+  - first:
+      213: -2071405410464834112
+    second: RangedBullet_52
+  - first:
+      213: 6251037874865335785
+    second: RangedBullet_53
+  - first:
+      213: 6908092834426747104
+    second: RangedBullet_54
+  - first:
+      213: 2276342719024836506
+    second: RangedBullet_55
+  - first:
+      213: -2829123895607215286
+    second: RangedBullet_56
+  - first:
+      213: -539818919543004171
+    second: RangedBullet_57
+  - first:
+      213: 4865133402300624331
+    second: RangedBullet_58
+  - first:
+      213: 1542376282127114877
+    second: RangedBullet_59
+  - first:
+      213: 4247770272829993708
+    second: RangedBullet_60
+  - first:
+      213: -9025676645258415565
+    second: RangedBullet_61
+  - first:
+      213: 5985334524025011127
+    second: RangedBullet_62
+  - first:
+      213: -7127813118719262481
+    second: RangedBullet_63
+  - first:
+      213: 179735854422594977
+    second: RangedBullet_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RangedBullet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75654e6a980a7dca0800000000000000
+      internalID: -5992144266122209705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedBullet_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9295325844c72fe50800000000000000
+      internalID: 6841667417662511401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedBullet_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c1b3c7d38683090800000000000000
+      internalID: -8054573320265589673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedBullet_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbebe45c390b3860800000000000000
+      internalID: 7510606958297869298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedBullet_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6a4ec9e065e8400800000000000000
+      internalID: 328294443606386412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangedBullet_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ada05172118fd350800000000000000
+      internalID: 6043691141165002146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b0d0a5d1f4451934895cf4286fe3db9c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RangedBullet_0: -5992144266122209705
+      RangedBullet_1: 6841667417662511401
+      RangedBullet_2: -8054573320265589673
+      RangedBullet_3: 7510606958297869298
+      RangedBullet_4: 328294443606386412
+      RangedBullet_5: 6043691141165002146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 1201a44efd2919f4c927348a25608cd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2364603033786267779
+    second: GunEnemy_0
+  - first:
+      213: 9194721506752025893
+    second: GunEnemy_1
+  - first:
+      213: 946277845693593817
+    second: GunEnemy_2
+  - first:
+      213: -5644165650716962089
+    second: GunEnemy_3
+  - first:
+      213: 7539883564408540107
+    second: GunEnemy_4
+  - first:
+      213: -6107892655510363269
+    second: GunEnemy_5
+  - first:
+      213: 5905328900279800959
+    second: GunEnemy_6
+  - first:
+      213: -8860866793472474954
+    second: GunEnemy_7
+  - first:
+      213: 8480330065486557472
+    second: GunEnemy_8
+  - first:
+      213: -744141291368298134
+    second: GunEnemy_9
+  - first:
+      213: 8748058955964570678
+    second: GunEnemy_10
+  - first:
+      213: 6960993926135573764
+    second: GunEnemy_11
+  - first:
+      213: -3016004654537176834
+    second: GunEnemy_12
+  - first:
+      213: -6089576320549344832
+    second: GunEnemy_13
+  - first:
+      213: -8809363895657713617
+    second: GunEnemy_14
+  - first:
+      213: -1121140428916428495
+    second: GunEnemy_15
+  - first:
+      213: 7942561763845143258
+    second: GunEnemy_16
+  - first:
+      213: 2182533859238779624
+    second: GunEnemy_17
+  - first:
+      213: 5949928152528097182
+    second: GunEnemy_18
+  - first:
+      213: 8476682560852145476
+    second: GunEnemy_19
+  - first:
+      213: 4878873203232157404
+    second: GunEnemy_20
+  - first:
+      213: -2124543346726209037
+    second: GunEnemy_21
+  - first:
+      213: 5183169930462963835
+    second: GunEnemy_22
+  - first:
+      213: 7499998348835353883
+    second: GunEnemy_23
+  - first:
+      213: 7662574952524404589
+    second: GunEnemy_24
+  - first:
+      213: 2755395018975646481
+    second: GunEnemy_25
+  - first:
+      213: 1537523225816882687
+    second: GunEnemy_26
+  - first:
+      213: -2294009998233425461
+    second: GunEnemy_27
+  - first:
+      213: 1473760044735275583
+    second: GunEnemy_28
+  - first:
+      213: -5279780710399148922
+    second: GunEnemy_29
+  - first:
+      213: -5066795824925580237
+    second: GunEnemy_30
+  - first:
+      213: 6006192616461399902
+    second: GunEnemy_31
+  - first:
+      213: 5708321463424577852
+    second: GunEnemy_32
+  - first:
+      213: 7900385116241319692
+    second: GunEnemy_33
+  - first:
+      213: -1191571932359659917
+    second: GunEnemy_34
+  - first:
+      213: -4561305582926021729
+    second: GunEnemy_35
+  - first:
+      213: -8073655778123909668
+    second: GunEnemy_36
+  - first:
+      213: 1196976773535234205
+    second: GunEnemy_37
+  - first:
+      213: 4051958959854602411
+    second: GunEnemy_38
+  - first:
+      213: -1214261958657905092
+    second: GunEnemy_39
+  - first:
+      213: -6690180749978900442
+    second: GunEnemy_40
+  - first:
+      213: -6024220991211837
+    second: GunEnemy_41
+  - first:
+      213: 5008972804303938135
+    second: GunEnemy_42
+  - first:
+      213: 6261846242907878511
+    second: GunEnemy_43
+  - first:
+      213: -1120777062243525963
+    second: GunEnemy_44
+  - first:
+      213: 5880835952027479051
+    second: GunEnemy_45
+  - first:
+      213: -9004664194598686742
+    second: GunEnemy_46
+  - first:
+      213: 6995205334899087531
+    second: GunEnemy_47
+  - first:
+      213: 3930818146884774314
+    second: GunEnemy_48
+  - first:
+      213: -282010789613251566
+    second: GunEnemy_49
+  - first:
+      213: -669475421993519839
+    second: GunEnemy_50
+  - first:
+      213: -7756441042085551979
+    second: GunEnemy_51
+  - first:
+      213: 598938589460986239
+    second: GunEnemy_52
+  - first:
+      213: -5422169785153322096
+    second: GunEnemy_53
+  - first:
+      213: -3138408060522897434
+    second: GunEnemy_54
+  - first:
+      213: -1110555032079430842
+    second: GunEnemy_55
+  - first:
+      213: -4282863527974458294
+    second: GunEnemy_56
+  - first:
+      213: 1975019856683149237
+    second: GunEnemy_57
+  - first:
+      213: -389874089351131191
+    second: GunEnemy_58
+  - first:
+      213: -3180908885919117400
+    second: GunEnemy_59
+  - first:
+      213: -7951673719197152777
+    second: GunEnemy_60
+  - first:
+      213: 3508718853958049457
+    second: GunEnemy_61
+  - first:
+      213: 5012617891801247803
+    second: GunEnemy_62
+  - first:
+      213: -8082304541380216598
+    second: GunEnemy_63
+  - first:
+      213: -6523364173003396682
+    second: GunEnemy_64
+  - first:
+      213: -5958763803036759519
+    second: GunEnemy_65
+  - first:
+      213: 148532790077058930
+    second: GunEnemy_66
+  - first:
+      213: 6279262404225026692
+    second: GunEnemy_67
+  - first:
+      213: -2925160535242041457
+    second: GunEnemy_68
+  - first:
+      213: 1497998878476366611
+    second: GunEnemy_69
+  - first:
+      213: -3884896236687313764
+    second: GunEnemy_70
+  - first:
+      213: -74621341170498042
+    second: GunEnemy_71
+  - first:
+      213: 5119324062333132611
+    second: GunEnemy_72
+  - first:
+      213: -8694920976503686984
+    second: GunEnemy_73
+  - first:
+      213: 779899497847700467
+    second: GunEnemy_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GunEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38834a75ee1c0d020800000000000000
+      internalID: 2364603033786267779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5255992ae763a9f70800000000000000
+      internalID: 9194721506752025893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d87363efaad12d00800000000000000
+      internalID: 946277845693593817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2dd87ae35eba1b0800000000000000
+      internalID: -5644165650716962089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb8060672c03a860800000000000000
+      internalID: 7539883564408540107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b736616adf76c3ba0800000000000000
+      internalID: -6107892655510363269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f749607d851f3f150800000000000000
+      internalID: 5905328900279800959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 0
+        width: 271
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0c4052990e70580800000000000000
+      internalID: -8860866793472474954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21d543df356433f4785d0a7e948b3fd1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GunEnemy_0: 2364603033786267779
+      GunEnemy_1: 9194721506752025893
+      GunEnemy_2: 946277845693593817
+      GunEnemy_3: -5644165650716962089
+      GunEnemy_4: 7539883564408540107
+      GunEnemy_5: -6107892655510363269
+      GunEnemy_6: 5905328900279800959
+      GunEnemy_7: -8860866793472474954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

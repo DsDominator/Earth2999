@@ -25,9 +25,13 @@ public abstract class Weapon : MonoBehaviour
     protected float nextShot;
     protected float rotateObject = 180f;
 
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         currentAmmo = maxAmmo;
+    }
+
+    protected virtual void Start()
+    {
         UpdateAmmoText();
     }
 
@@ -46,7 +50,7 @@ public abstract class Weapon : MonoBehaviour
             ? Input.GetMouseButton(0)
             : Input.GetMouseButtonDown(0);
 
-        if (isShooting &&
+        if (!isReloading && isShooting &&
             currentAmmo > 0 &&
             Time.time >= nextShot)
         {
@@ -124,7 +128,7 @@ public abstract class Weapon : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
-            if (currentAmmo >= maxAmmo) return;
+            if (isReloading || currentAmmo >= maxAmmo) return;
 
             StartCoroutine(ReloadCoroutine());
         }
@@ -133,12 +137,19 @@ public abstract class Weapon : MonoBehaviour
     // Cập nhật số đạn trên UI
     protected void UpdateAmmoText()
     {
-        if (ammoText == null)
+        // All weapons share one ammo label, so an inactive weapon must not
+        // overwrite the currently selected weapon's display.
+        if (ammoText == null || !gameObject.activeInHierarchy)
             return;
 
-        ammoText.text = currentAmmo > 0
-            ? currentAmmo.ToString()
-            : "Empty";
+        ammoText.text = isReloading
+            ? "Reloading..."
+            : currentAmmo > 0 ? currentAmmo.ToString() : "Empty";
+    }
+
+    public void RefreshAmmoText()
+    {
+        UpdateAmmoText();
     }
     public void Configure(
         TextMeshProUGUI text,
@@ -155,7 +166,7 @@ public abstract class Weapon : MonoBehaviour
         isReloading = true;
 
         // Hiển thị trạng thái đang thay đạn
-        if (ammoText != null)
+        if (ammoText != null && gameObject.activeInHierarchy)
         {
             ammoText.text = "Reloading...";
         }
@@ -163,9 +174,8 @@ public abstract class Weapon : MonoBehaviour
         yield return new WaitForSeconds(reloadTime);
 
         currentAmmo = maxAmmo;
-        UpdateAmmoText();
-
         isReloading = false;
+        UpdateAmmoText();
 
         if (audioManager != null)
         {
