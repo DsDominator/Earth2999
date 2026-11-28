@@ -35,6 +35,14 @@ public abstract class Weapon : MonoBehaviour
         UpdateAmmoText();
     }
 
+    private void OnDisable()
+    {
+        // Deactivating a weapon stops its coroutines in Unity. If that happens
+        // during a reload, clear the flag so the weapon can reload again when
+        // it is selected later.
+        isReloading = false;
+    }
+
     protected virtual void Update()
     {
         if (Time.timeScale == 0f) return;
