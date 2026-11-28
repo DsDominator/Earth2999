@@ -26,6 +26,7 @@ public class EnemySpawner : MonoBehaviour
     [Header("Spawn Settings")]
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private float timeBetweenSpawns = 2f;
+    [SerializeField, Min(0f)] private float minTimeBetweenSpawns = 0.3f;
 
     [Header("Phase Settings")]
     [SerializeField] private PhaseSpawnSettings[] phaseSettings;
@@ -107,7 +108,9 @@ public class EnemySpawner : MonoBehaviour
             }
 
             if (i < enemyCount - 1)
-                yield return new WaitForSeconds(timeBetweenSpawns);
+                yield return new WaitForSeconds(
+                    Mathf.Max(minTimeBetweenSpawns, timeBetweenSpawns)
+                );
         }
 
         Debug.Log("Spawn Wave Completed!");
@@ -152,12 +155,10 @@ public class EnemySpawner : MonoBehaviour
 
     public void reduceTimeSpawms()
     {
-        if (timeBetweenSpawns >= 1f)
-        {
-            timeBetweenSpawns -= 0.2f;
-        }
-
-        timeBetweenSpawns = Mathf.Max(0.3f, timeBetweenSpawns);
+        timeBetweenSpawns = Mathf.Max(
+            minTimeBetweenSpawns,
+            timeBetweenSpawns - 0.2f
+        );
 
         Debug.Log("Spawn Time: " + timeBetweenSpawns);
     }

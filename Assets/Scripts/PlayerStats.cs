@@ -39,7 +39,7 @@ public class PlayerStats : MonoBehaviour
     // Upgrade Damage
     public void UpgradeDamage()
     {
-        damageMultiplier *= 1.15f;
+        damageMultiplier *= 1.2f;
     }
 
     // Upgrade Critical Chance

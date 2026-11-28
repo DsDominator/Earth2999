@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: a0d612e66a2a7fc419f90f250b01640a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -527949233866425046
+    second: TitanBossSlam_0
+  - first:
+      213: 6825449528686055254
+    second: TitanBossSlam_1
+  - first:
+      213: 4383767706769564428
+    second: TitanBossSlam_2
+  - first:
+      213: 6086791786432221507
+    second: TitanBossSlam_3
+  - first:
+      213: -151147690999807711
+    second: TitanBossSlam_4
+  - first:
+      213: -1335508580844963364
+    second: TitanBossSlam_5
+  - first:
+      213: 4472874153472687724
+    second: TitanBossSlam_6
+  - first:
+      213: 7979921013260648681
+    second: TitanBossSlam_7
+  - first:
+      213: 6598567047987325332
+    second: TitanBossSlam_8
+  - first:
+      213: -4110440583402721979
+    second: TitanBossSlam_9
+  - first:
+      213: -436016224978950015
+    second: TitanBossSlam_10
+  - first:
+      213: 2551157460270811869
+    second: TitanBossSlam_11
+  - first:
+      213: -4910720829685725764
+    second: TitanBossSlam_12
+  - first:
+      213: 1500598951878257831
+    second: TitanBossSlam_13
+  - first:
+      213: 7383480703128769285
+    second: TitanBossSlam_14
+  - first:
+      213: -6675183202736240167
+    second: TitanBossSlam_15
+  - first:
+      213: -6357107599124051342
+    second: TitanBossSlam_16
+  - first:
+      213: 5449900949938154013
+    second: TitanBossSlam_17
+  - first:
+      213: -1070715102585033414
+    second: TitanBossSlam_18
+  - first:
+      213: 5512828951119927278
+    second: TitanBossSlam_19
+  - first:
+      213: 7778398097192449653
+    second: TitanBossSlam_20
+  - first:
+      213: 5920234913825570618
+    second: TitanBossSlam_21
+  - first:
+      213: -3192225898713119112
+    second: TitanBossSlam_22
+  - first:
+      213: 61684336539110579
+    second: TitanBossSlam_23
+  - first:
+      213: 1352063648018207482
+    second: TitanBossSlam_24
+  - first:
+      213: -5698562913098154785
+    second: TitanBossSlam_25
+  - first:
+      213: 3814456828710268296
+    second: TitanBossSlam_26
+  - first:
+      213: 2579287745050779750
+    second: TitanBossSlam_27
+  - first:
+      213: 7849665572397558237
+    second: TitanBossSlam_28
+  - first:
+      213: 3660740977147315856
+    second: TitanBossSlam_29
+  - first:
+      213: 4829411723602470205
+    second: TitanBossSlam_30
+  - first:
+      213: -2407418451351879011
+    second: TitanBossSlam_31
+  - first:
+      213: 280444818919230270
+    second: TitanBossSlam_32
+  - first:
+      213: -1163394123018216487
+    second: TitanBossSlam_33
+  - first:
+      213: -2125838202513681330
+    second: TitanBossSlam_34
+  - first:
+      213: -1901273969117905571
+    second: TitanBossSlam_35
+  - first:
+      213: -5610574223438648356
+    second: TitanBossSlam_36
+  - first:
+      213: -8018060384267263537
+    second: TitanBossSlam_37
+  - first:
+      213: -2931578229480054191
+    second: TitanBossSlam_38
+  - first:
+      213: -552682482240069621
+    second: TitanBossSlam_39
+  - first:
+      213: 8182258766212464234
+    second: TitanBossSlam_40
+  - first:
+      213: -3744653920674484553
+    second: TitanBossSlam_41
+  - first:
+      213: 8829394332231638320
+    second: TitanBossSlam_42
+  - first:
+      213: -2543212040273277496
+    second: TitanBossSlam_43
+  - first:
+      213: -8636652203091709396
+    second: TitanBossSlam_44
+  - first:
+      213: -6742435422163158931
+    second: TitanBossSlam_45
+  - first:
+      213: -4498421950011989478
+    second: TitanBossSlam_46
+  - first:
+      213: -1367755703245634582
+    second: TitanBossSlam_47
+  - first:
+      213: 1250030537460987593
+    second: TitanBossSlam_48
+  - first:
+      213: -4612642743174519547
+    second: TitanBossSlam_49
+  - first:
+      213: 1950768228844451240
+    second: TitanBossSlam_50
+  - first:
+      213: -8982735493074172164
+    second: TitanBossSlam_51
+  - first:
+      213: -5631185058748902963
+    second: TitanBossSlam_52
+  - first:
+      213: -1030019657085780590
+    second: TitanBossSlam_53
+  - first:
+      213: -8524987966183459275
+    second: TitanBossSlam_54
+  - first:
+      213: 4873605179821982532
+    second: TitanBossSlam_55
+  - first:
+      213: -7567706613100928349
+    second: TitanBossSlam_56
+  - first:
+      213: 2408430820187012144
+    second: TitanBossSlam_57
+  - first:
+      213: -482711379227448678
+    second: TitanBossSlam_58
+  - first:
+      213: 493534938351125601
+    second: TitanBossSlam_59
+  - first:
+      213: -5226231497051161542
+    second: TitanBossSlam_60
+  - first:
+      213: 625448766440548124
+    second: TitanBossSlam_61
+  - first:
+      213: -1231209340691368157
+    second: TitanBossSlam_62
+  - first:
+      213: 3237238217794020784
+    second: TitanBossSlam_63
+  - first:
+      213: -1990573697306098266
+    second: TitanBossSlam_64
+  - first:
+      213: 6887606583150467261
+    second: TitanBossSlam_65
+  - first:
+      213: -1513528882512420035
+    second: TitanBossSlam_66
+  - first:
+      213: 6535103222258579820
+    second: TitanBossSlam_67
+  - first:
+      213: 7439607957315505812
+    second: TitanBossSlam_68
+  - first:
+      213: -8361360314974780623
+    second: TitanBossSlam_69
+  - first:
+      213: -4856469334584534860
+    second: TitanBossSlam_70
+  - first:
+      213: -2882148461210827666
+    second: TitanBossSlam_71
+  - first:
+      213: -6304494574944405499
+    second: TitanBossSlam_72
+  - first:
+      213: -7337544532438122663
+    second: TitanBossSlam_73
+  - first:
+      213: 2537472879438941804
+    second: TitanBossSlam_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 52
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TitanBossSlam_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2db3ff08f85ca8f0800000000000000
+      internalID: -527949233866425046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f80bdfe2ed8be50800000000000000
+      internalID: 6825449528686055254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0324dbc08546dc30800000000000000
+      internalID: 4383767706769564428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_3
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341de0c61e0a87450800000000000000
+      internalID: 6086791786432221507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1210651d9f307edf0800000000000000
+      internalID: -151147690999807711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_5
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 0
+        width: 200
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9ff348502577de0800000000000000
+      internalID: -1335508580844963364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_6
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 0
+        width: 233
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ef3c22857d21e30800000000000000
+      internalID: 4472874153472687724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_7
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 237
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e08313d1ef5ebe60800000000000000
+      internalID: 7979921013260648681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_8
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 0
+        width: 199
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499e1e9f4c1d29b50800000000000000
+      internalID: 6598567047987325332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitanBossSlam_9
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 0
+        width: 217
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d6ee34118c4f6c0800000000000000
+      internalID: -4110440583402721979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a58a2b8c47cc05a498fdbff102521995
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TitanBossSlam_0: -527949233866425046
+      TitanBossSlam_1: 6825449528686055254
+      TitanBossSlam_2: 4383767706769564428
+      TitanBossSlam_3: 6086791786432221507
+      TitanBossSlam_4: -151147690999807711
+      TitanBossSlam_5: -1335508580844963364
+      TitanBossSlam_6: 4472874153472687724
+      TitanBossSlam_7: 7979921013260648681
+      TitanBossSlam_8: 6598567047987325332
+      TitanBossSlam_9: -4110440583402721979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

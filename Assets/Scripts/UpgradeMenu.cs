@@ -80,7 +80,7 @@ public class UpgradeMenu : MonoBehaviour
         new UpgradeOption
         {
             upgradeName = "Damage Boost",
-            description = "Increase weapon damage by 15%.",
+            description = "Increase weapon damage by 20%.",
             type = UpgradeType.Damage
         },
 

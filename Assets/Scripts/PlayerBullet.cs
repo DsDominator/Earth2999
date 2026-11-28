@@ -10,6 +10,7 @@ public class PlayerBullet : MonoBehaviour
     [SerializeField] private GameObject bloodPrefabs;
 
     private float finalDamage;
+    private bool isCritical;
 
     [Header("Penetration")]
     [SerializeField] private int maxPenetration = 1;
@@ -32,8 +33,8 @@ public class PlayerBullet : MonoBehaviour
 
         finalDamage = damage * damageMultiplier;
 
-        if (stats != null &&
-            Random.value < stats.critChance)
+        isCritical = stats != null && Random.value < stats.critChance;
+        if (isCritical)
         {
             finalDamage *= stats.critDamageMultiplier;
         }
@@ -65,7 +66,7 @@ public class PlayerBullet : MonoBehaviour
 
             hitEnemies.Add(enemy);
 
-            enemy.TakeDamage(finalDamage);
+            enemy.TakeDamage(finalDamage, isCritical);
 
             if (bloodPrefabs != null)
             {

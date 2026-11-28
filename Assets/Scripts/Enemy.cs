@@ -213,6 +213,13 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
+    // Allows attacks that know whether they crit to preserve that information
+    // for enemies with mechanics that react to critical hits.
+    public virtual void TakeDamage(float damage, bool isCritical)
+    {
+        TakeDamage(damage);
+    }
+
     // =====================================
     // DIE
     // =====================================

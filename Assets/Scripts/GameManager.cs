@@ -108,7 +108,7 @@ public class GameManager : MonoBehaviour
 
         isChoosingUpgrade = true;
 
-        energyThreshold *= 1.1f;
+        energyThreshold *= 1.06f;
 
         currentEnergy = 0f;
 

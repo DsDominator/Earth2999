@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\CursorManager.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\EnemyBullet.cs" />
+    <Compile Include="Assets\Scripts\TitanBoss.cs" />
     <Compile Include="Assets\Scripts\Shotgun.cs" />
     <Compile Include="Assets\Scripts\DestroyerBoss.cs" />
     <Compile Include="Assets\Scripts\EnemyBossBullet.cs" />

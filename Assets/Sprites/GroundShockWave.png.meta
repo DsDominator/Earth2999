@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: db9ef9a2912273a42bbc43b66e88eab8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6205960951998935361
+    second: GroundShockWave_0
+  - first:
+      213: 7117617910629694440
+    second: GroundShockWave_1
+  - first:
+      213: -5347151770436184404
+    second: GroundShockWave_2
+  - first:
+      213: -578197254986550066
+    second: GroundShockWave_3
+  - first:
+      213: -8616129981517382546
+    second: GroundShockWave_4
+  - first:
+      213: -8065678119627557523
+    second: GroundShockWave_5
+  - first:
+      213: -369107375654991694
+    second: GroundShockWave_6
+  - first:
+      213: 1665391321637245061
+    second: GroundShockWave_7
+  - first:
+      213: 7137335425976464782
+    second: GroundShockWave_8
+  - first:
+      213: -3461087651689586828
+    second: GroundShockWave_9
+  - first:
+      213: 6686703613135948363
+    second: GroundShockWave_10
+  - first:
+      213: 8941414543182181813
+    second: GroundShockWave_11
+  - first:
+      213: 1429189276885551350
+    second: GroundShockWave_12
+  - first:
+      213: 4874174539911195603
+    second: GroundShockWave_13
+  - first:
+      213: 346140247441717574
+    second: GroundShockWave_14
+  - first:
+      213: 2169286726262461159
+    second: GroundShockWave_15
+  - first:
+      213: -8446470886006510551
+    second: GroundShockWave_16
+  - first:
+      213: 3791903973631000647
+    second: GroundShockWave_17
+  - first:
+      213: 5266330990673281147
+    second: GroundShockWave_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GroundShockWave_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5189274, y: 0.40435722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14177d1fa90002650800000000000000
+      internalID: 6205960951998935361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 362
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40789965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb7a0a67cbd6c260800000000000000
+      internalID: 7117617910629694440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 361
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.46687728, y: 0.40435717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6dc039bc91bc5b0800000000000000
+      internalID: -5347151770436184404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 362
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.4716094, y: 0.40789965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4bb66f8a4d9f7f0800000000000000
+      internalID: -578197254986550066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 362
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.48107278, y: 0.4185265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c30199e6b5d6880800000000000000
+      internalID: -8616129981517382546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 361
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.47634134, y: 0.40081492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6575f6eb74f01090800000000000000
+      internalID: -8065678119627557523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 361
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.4668775, y: 0.42915353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b88b162ccaa0eaf0800000000000000
+      internalID: -369107375654991694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 362
+        width: 271
+        height: 362
+      alignment: 9
+      pivot: {x: 0.48580515, y: 0.40789947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580d43a5598ac1710800000000000000
+      internalID: 1665391321637245061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85732431c8ec0360800000000000000
+      internalID: 7137335425976464782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f1d805e1fb7ffc0800000000000000
+      internalID: -3461087651689586828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_10
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a0a4b2281fbcc50800000000000000
+      internalID: 6686703613135948363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_11
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5b2e34729461c70800000000000000
+      internalID: 8941414543182181813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_12
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f88f8d331085d310800000000000000
+      internalID: 1429189276885551350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_13
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbe8a86beb84a340800000000000000
+      internalID: 4874174539911195603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_14
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649ba3b98bcbdc400800000000000000
+      internalID: 346140247441717574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundShockWave_15
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 0
+        width: 271
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e218deb8cada1e10800000000000000
+      internalID: 2169286726262461159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a7a34fff1d47aa341bdd84fb19a5a17c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GroundShockWave_0: 6205960951998935361
+      GroundShockWave_1: 7117617910629694440
+      GroundShockWave_10: 6686703613135948363
+      GroundShockWave_11: 8941414543182181813
+      GroundShockWave_12: 1429189276885551350
+      GroundShockWave_13: 4874174539911195603
+      GroundShockWave_14: 346140247441717574
+      GroundShockWave_15: 2169286726262461159
+      GroundShockWave_2: -5347151770436184404
+      GroundShockWave_3: -578197254986550066
+      GroundShockWave_4: -8616129981517382546
+      GroundShockWave_5: -8065678119627557523
+      GroundShockWave_6: -369107375654991694
+      GroundShockWave_7: 1665391321637245061
+      GroundShockWave_8: 7137335425976464782
+      GroundShockWave_9: -3461087651689586828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
